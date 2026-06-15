@@ -1,0 +1,9 @@
+{
+  "slug": "s4hana",
+  "term": "SAP S/4HANA",
+  "category": "industrie",
+  "definition": "Aktuelle SAP-ERP-Generation auf In-Memory-Datenbank HANA. Für viele Industrie-Mittelständler bis Konzern-Carve-out die Standard-ERP-Plattform.",
+  "related": [
+    "sap-cutover"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "slug": "zero-trust",
+  "term": "Zero Trust",
+  "synonyms": ["Zero-Trust-Architektur", "ZTA"],
+  "category": "technik",
+  "definition": "Sicherheitsmodell ohne implizites Vertrauen. Jeder Zugriff wird geprüft — egal ob aus dem Büro oder von außen. Identität, Gerätezustand und Kontext entscheiden, nicht die Frage, ob jemand schon \"drin\" ist.",
+  "longForm": "Das klassische Netzwerk-Modell vertraut allem hinter der Firewall — wer im Büro-LAN steckt, gilt als legitim. Genau das bricht Zero Trust auf: kein Standort, kein Gerät und kein Konto bekommt Vertrauen geschenkt, jede Anfrage wird einzeln anhand von Identität, Gerätezustand, Standort und Risiko bewertet. „Never trust, always verify.“ In der Microsoft-Welt setzt man das nicht mit einem Produkt um, sondern als Zusammenspiel: Entra ID als zentrale Identität, Conditional Access als Policy-Layer, MFA überall, Geräte-Compliance über Intune. Für den Mittelstand ist Zero Trust kein Big-Bang, sondern ein Pfad — meist beginnend mit flächendeckender MFA und ein paar harten Conditional-Access-Regeln, dann schrittweise verfeinert. Wichtig: Zero Trust ist eine Architektur-Haltung, kein Häkchen auf einer Einkaufsliste.",
+  "related": ["conditional-access", "mfa", "entra-id", "iam", "nis2"]
+}

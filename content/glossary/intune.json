@@ -1,0 +1,12 @@
+{
+  "slug": "intune",
+  "term": "Intune",
+  "synonyms": [
+    "Microsoft Intune"
+  ],
+  "category": "technik",
+  "definition": "Microsofts Endpoint-Management-Lösung. Verwaltet Windows-, Mac-, iOS- und Android-Geräte zentral — Policies, App-Deployment, Compliance, Remote-Wipe.",
+  "related": [
+    "m365-tenant"
+  ]
+}

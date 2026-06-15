@@ -1,0 +1,13 @@
+{
+  "slug": "change-management",
+  "term": "Change-Management",
+  "synonyms": [
+    "Veränderungsmanagement"
+  ],
+  "category": "methodik",
+  "definition": "Die Arbeit daran, dass eine Veränderung auch ankommt — bei den Menschen, nicht nur im System. Neue Tools scheitern selten an der Technik, sondern daran, dass niemand mitgenommen wurde. Gehört zu jeder Transformation, nicht als Nachgedanke.",
+  "related": [
+    "lotsenprinzip",
+    "uebergabe"
+  ]
+}

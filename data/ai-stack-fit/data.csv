@@ -1,0 +1,53 @@
+id,cat,label,family,sizes,strat,base,ai,eu,cost,note,flag
+m365,office,Microsoft 365,ms,"small,mid,large,xl","ms,best",78,88,60,3,"Standard im Mittelstand. Copilot setzt darauf auf.",
+gworkspace,office,Google Workspace,google,"micro,small,mid","google,cost",70,82,55,2,"Schneller Rollout, Gemini nativ integriert.",
+libre,office,LibreOffice + OnlyOffice,oss,"micro,small","cost,eu",45,30,90,1,"Souverän, AI-Anbindung schwach.",underdog
+copilot,ai,Microsoft 365 Copilot,ms,"small,mid,large,xl","ms",72,90,65,4,"Pflicht, wenn M365 das Backbone ist.",
+chatgpt,ai,ChatGPT Enterprise,oss,"micro,small,mid,large,xl","best",80,95,50,4,"Stärkstes Allround-Modell, EU-Standort optional.",
+claude,ai,Claude for Work,oss,"small,mid,large,xl","best",78,94,55,3,"Stärker bei Long-Form und Code-Reasoning.",rising
+gemini,ai,Gemini for Workspace,google,"small,mid,large","google",74,88,55,3,"Sinnvoll nur mit Google Workspace darunter.",
+mistral,ai,Mistral Le Chat Enterprise,oss,"mid,large,xl","eu,cost",65,80,95,2,"EU-Hosting, AI-Act-konform, etwas geringere Modelltiefe.",
+alephalpha,ai,Aleph Alpha (Pharia),oss,"mid,large,xl","eu",58,72,96,3,"DACH-Anbieter mit BSI-C5-zertifiziertem EU-Hosting, FOSS-nahe Enterprise.",
+teams,comm,Microsoft Teams,ms,"small,mid,large,xl","ms,best",75,80,60,2,"Mit M365 inklusive. Copilot in Meetings.",
+slack,comm,Slack,oss,"micro,small,mid,large","best",72,75,50,3,"Tech- und Software-Branche bevorzugt.",
+gchat,comm,Google Chat / Meet,google,"micro,small,mid","google",60,70,55,1,"Reicht, wenn Workspace gesetzt ist.",
+mattermost,comm,Mattermost,oss,"small,mid,large","eu,cost,best",62,55,94,1,"OSS-Slack-Alternative, self-hostbar, hoher Souveränitäts-Score.",underdog
+sharepoint,knowledge,SharePoint + OneDrive,ms,"small,mid,large,xl","ms",70,80,60,2,"Voraussetzung für Copilot-Findbarkeit.",
+confluence,knowledge,Confluence,atlassian,"small,mid,large,xl","best",68,65,55,3,"Stark wenn Atlassian eh da ist.",
+notion,knowledge,Notion,oss,"micro,small,mid","best,cost",72,80,50,2,"Schöne UX, eingebaute AI. Limit bei Compliance.",
+outline,knowledge,Outline (self-hosted),oss,"micro,small,mid","eu,cost",55,55,90,1,"Souverän hostbar, weniger Polish.",underdog
+hubspot,crm,HubSpot,oss,"micro,small,mid,large","best,cost",78,85,55,3,"Schneller Rollout, AI für Sales gut.",
+salesforce,crm,Salesforce,salesforce,"mid,large,xl","best",75,88,55,5,"Standard ab 250 MA. Hohe TCO.",
+dynamicscrm,crm,Dynamics 365 Sales,ms,"mid,large,xl","ms",70,82,60,4,"Logisch, wenn der Rest Microsoft ist.",
+pipedrive,crm,Pipedrive,oss,"micro,small","cost",60,65,60,2,"Solo bis ~30 MA.",
+zoho,crm,Zoho CRM,oss,"small,mid,large","cost,best",66,70,60,2,"Mid-Market-CRM mit eigener Suite, in DACH stark im Mittelstand.",underdog
+sap,erp,SAP S/4HANA,sap,"large,xl","best",72,75,75,5,"Quasi-Standard ab 1.000 MA. Migration mehrjährig.",
+dynamics,erp,Dynamics 365 Business Central,ms,"small,mid,large","ms",70,78,60,3,"Schmaler Mittelstand-ERP, Copilot-fähig.",
+odoo,erp,Odoo,oss,"micro,small,mid","cost,eu",62,55,80,2,"Modular, hostbar, AI rudimentär.",underdog
+netsuite,erp,NetSuite,oss,"mid,large","best",60,65,50,4,"USA-lastig, in DACH selten.",
+fabric,data,Microsoft Fabric,ms,"mid,large,xl","ms",72,88,60,4,"Lake + Warehouse + AI in einem, M365-nah.",
+bigquery,data,BigQuery + Looker,google,"mid,large,xl","google,best",74,90,55,4,"Erstklassig wenn GCP gesetzt ist.",
+snowflake,data,Snowflake,oss,"mid,large,xl","best",78,85,60,5,"Cloud-agnostisch, hohe Datenmengen.",
+databricks,data,Databricks,oss,"large,xl","best",70,92,60,5,"AI/ML-zentriert, Data-Engineering schwer.",
+supabase,data,Supabase,oss,"micro,small,mid","best,cost",64,75,72,2,"Postgres-managed mit Auth/Storage/Realtime, Lite-Stack-Liebling.",rising
+powerauto,automation,Power Automate,ms,"small,mid,large,xl","ms",72,80,60,2,"Im M365-Lock-in eingeschlossen.",
+n8n,automation,n8n (self-hosted),oss,"small,mid,large","eu,cost,best",74,75,95,1,"OSS, EU-Hosting, sehr flexibel.",underdog
+make,automation,Make,oss,"micro,small,mid","cost,best",65,65,55,2,"Visueller Builder, schnell für Solo/Klein.",
+zapier,automation,Zapier,oss,"micro,small","best",60,70,50,3,"Breit, aber teuer pro Task.",
+ghcopilot,dev,GitHub + Copilot,ms,"micro,small,mid,large,xl","ms,best",80,90,55,3,"Industriestandard. Mit Microsoft synergetisch.",
+gitlab,dev,GitLab Duo,oss,"small,mid,large,xl","eu,best",70,80,80,3,"Selfhost-fähig, vollständige DevSecOps-Pipeline.",
+cursor,dev,Cursor,oss,"micro,small,mid","best",74,92,50,2,"AI-Editor, ergänzt GitHub Copilot.",rising
+hsmkt,marketing,HubSpot Marketing,oss,"small,mid,large","best,cost",78,82,55,3,"Wenn HubSpot CRM gesetzt ist, immer.",
+marketo,marketing,Marketo,oss,"large,xl","best",65,75,55,5,"Enterprise-B2B.",
+customerio,marketing,Customer.io,oss,"small,mid","best,cost",62,70,50,2,"Eventbasiert, schlank.",
+brevo,marketing,Brevo,oss,"micro,small","cost,eu",55,55,80,1,"EU-Anbieter, niedrigschwellig.",
+klaviyo,marketing,Klaviyo,oss,"small,mid,large","best",70,80,50,3,"DTC-Marketing-Standard, AI-Segments, US-zentriert.",rising
+zendesk,support,Zendesk,oss,"mid,large,xl","best",72,85,55,4,"Standard im B2C-Support.",
+intercom,support,Intercom Fin,oss,"small,mid,large","best",70,90,50,4,"AI-Agent (Fin) sehr stark, teuer.",rising
+freshdesk,support,Freshdesk,oss,"small,mid","cost",60,65,55,2,"Solide, preislich attraktiv.",
+hsservice,support,HubSpot Service,oss,"small,mid","best,cost",65,75,55,2,"Sinnvoll bei HubSpot CRM.",
+azure,cloud,Azure,ms,"mid,large,xl","ms",78,88,65,4,"Wenn Microsoft, dann hier.",
+aws,cloud,AWS,aws,"mid,large,xl","best",80,90,60,4,"Breitestes Service-Portfolio.",
+gcp,cloud,Google Cloud,google,"mid,large,xl","google,best",74,92,60,4,"Stärkste AI/ML-Tooling.",
+hetzner,cloud,Hetzner / OVHcloud,oss,"micro,small,mid","eu,cost",60,50,95,1,"EU-souverän, aber DIY.",
+ionos,cloud,IONOS Cloud,oss,"small,mid,large","eu,cost",58,45,96,2,"Deutsche EU-Cloud, BSI-C5, AI-Tooling rudimentär.",underdog

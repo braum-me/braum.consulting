@@ -1,0 +1,16 @@
+{
+  "slug": "isms",
+  "term": "ISMS",
+  "synonyms": [
+    "Information-Security-Management-System",
+    "Informationssicherheits-Managementsystem"
+  ],
+  "category": "recht",
+  "definition": "Das Regelwerk, mit dem ein Unternehmen Informationssicherheit systematisch steuert — Risiken, Maßnahmen, Verantwortlichkeiten, Nachweise. Grundlage jeder ISO-27001-Zertifizierung und sinnvoll, lange bevor ein Audit ansteht.",
+  "related": [
+    "iso-27001",
+    "nis2",
+    "tisax"
+  ],
+  "tool": { "href": "/werkzeuge/iso-27001-readiness", "label": "Wie weit ist mein ISMS?" }
+}

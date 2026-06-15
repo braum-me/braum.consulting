@@ -1,0 +1,13 @@
+{
+  "slug": "kritis",
+  "term": "KRITIS",
+  "synonyms": ["Kritische Infrastruktur"],
+  "category": "recht",
+  "definition": "Kritische Infrastrukturen — Organisationen, deren Ausfall die Versorgung der Bevölkerung gefährden würde. In Deutschland über das BSI-Gesetz und die BSI-Kritisverordnung geregelt, mit eigenen Melde- und Nachweispflichten.",
+  "longForm": "KRITIS umfasst Anlagen und Betreiber in Sektoren wie Energie, Wasser, Ernährung, Gesundheit, Finanzen, Transport und IT — überall dort, wo ein Ausfall große Teile der Bevölkerung träfe. Ob ein Betrieb darunterfällt, hängt an Schwellenwerten der BSI-Kritisverordnung (klassisch der Regelschwellenwert von 500.000 versorgten Personen). KRITIS-Betreiber müssen dem BSI eine Kontaktstelle melden, erhebliche Störungen anzeigen und alle zwei Jahre nachweisen, dass ihre IT dem Stand der Technik entspricht. Mit NIS2 und dem geplanten KRITIS-Dachgesetz wächst der Kreis der Pflichtigen und die Anforderungen rücken näher an die breite Wirtschaft. Für viele Mittelständler ist die entscheidende erste Frage nicht „Wie zertifiziere ich?“, sondern „Bin ich überhaupt betroffen — direkt oder als Zulieferer eines KRITIS-Betreibers?“",
+  "related": ["nis2", "iso-27001", "isms", "bcm"],
+  "source": {
+    "label": "BSI · KRITIS",
+    "url": "https://www.bsi.bund.de/DE/Themen/KRITIS-und-regulierte-Unternehmen/Kritische-Infrastrukturen/kritische-infrastrukturen_node.html"
+  }
+}

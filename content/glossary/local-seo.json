@@ -1,0 +1,10 @@
+{
+  "slug": "local-seo",
+  "term": "Local SEO",
+  "synonyms": ["Lokale Suchmaschinenoptimierung"],
+  "category": "technik",
+  "definition": "Sichtbarkeit in der lokalen Suche — wenn jemand „Heizungsbauer in der Nähe“ oder „Steuerberater Schlüchtern“ sucht. Entscheidend für Handwerk, Praxen und Dienstleister mit regionalem Einzugsgebiet.",
+  "longForm": "Für einen Betrieb mit festem Einzugsgebiet ist Local SEO oft wichtiger als klassische Reichweite — eine Top-Platzierung bei „Maler + Stadtname“ bringt mehr qualifizierte Anfragen als tausend Besucher von weit weg. Drei Hebel zählen besonders: ein vollständig gepflegtes Google-Unternehmensprofil (früher „Google My Business“), das über den lokalen Karten-Block sichtbar macht; konsistente NAP-Daten (Name, Adresse, Telefon) über alle Verzeichnisse hinweg, weil Google auf Übereinstimmung achtet; und echte Bewertungen, die Vertrauen und Ranking zugleich stützen. Dazu kommt eine Website mit klaren Standort- und Leistungsseiten, schnellen Ladezeiten und sauberem LocalBusiness-Markup. Der Charme: Der Wettbewerb ist lokal überschaubar — wer es konsequent macht, steht oft monatelang vorne, ohne ständiges Nachlegen wie im überregionalen SEO.",
+  "related": ["core-web-vitals", "wordpress", "next-js"],
+  "tool": { "href": "/werkzeuge/website-check", "label": "Bringt deine Website Anfragen?" }
+}

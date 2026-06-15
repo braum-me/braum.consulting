@@ -1,0 +1,40 @@
+{
+  "num": "elektro-berkel",
+  "title": "Vom Ein-Seiter zur Dark-Mode-Website für einen Elektrobetrieb",
+  "sector": "Elektro-Handwerk",
+  "year": "2025",
+  "duration": "7 Wochen",
+  "field": "marke",
+  "fieldLabel": "Marke & Reichweite",
+  "metric": "Dark Mode",
+  "metricLabel": "schwarz/grün · regional vorn im SEO",
+  "impact": "Aus einem Ein-Seiten-Auftritt mit Telefonnummer wird eine moderne Dark-Mode-Website — und im regionalen SEO vorn.",
+  "brief": "Die alte Seite war praktisch eine Folie mit Telefonnummer. Daraus wurde eine moderne, responsive Dark-Mode-Website im Spiel zwischen Schwarz und Grün — mit regionalem SEO, das vorne mitspielt.",
+  "context": [
+    "Der bestehende Auftritt war praktisch eine PowerPoint-Folie: eine Seite, eine Telefonnummer — mehr nicht.",
+    "Branding war vorhanden. Auftrag: eine moderne, responsive Website, die das aufnimmt und regional auffindbar ist."
+  ],
+  "approach": [
+    "Moderne, responsive Website im Dark Mode — Spiel zwischen Schwarz und Grün, aufgesetzt aufs vorhandene Branding.",
+    "Service-Bereiche klar sortiert, durchgängig mobil.",
+    "Regionales SEO konsequent aufgebaut.",
+    "Aus einer Folie mit Telefonnummer wurde ein Auftritt, der im regionalen Vergleich vorne mitspielt."
+  ],
+  "outcome": [
+    "Aus dem Ein-Seiten-Auftritt wurde eine vollwertige, responsive Dark-Mode-Website.",
+    "Im regionalen SEO-Vergleich vorne — die Seite wird gefunden.",
+    "Eigenständiger Look im Spiel zwischen Schwarz und Grün."
+  ],
+  "tech": [
+    "WordPress",
+    "Elementor",
+    "Dark-Mode-Design",
+    "Local SEO",
+    "Performance-Tuning"
+  ],
+  "serviceSlug": "marke",
+  "anchor": "Handwerk · Ein-Seiter → Dark Mode · regionales SEO",
+  "image": "/cases/elektro-berkel.webp",
+  "anonymized": false,
+  "client": "Elektro Berkel"
+}

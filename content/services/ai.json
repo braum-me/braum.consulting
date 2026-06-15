@@ -1,0 +1,73 @@
+{
+  "slug": "ai",
+  "num": "03",
+  "title": "KI & Automatisierung",
+  "short": "Was wirklich schon geht — Use-Case-bezogen, ohne Hype.",
+  "bullets": [
+    "Copilot · Power Platform · n8n",
+    "Use-Case statt PowerPoint",
+    "DSGVO-sauber, EU-only möglich"
+  ],
+  "result": "−38 % Draft-Zeit",
+  "resultLabel": "QS-Team · 40 User · 90 Tage",
+  "lead": "Zwischen LinkedIn-Hype und Alltag im Betrieb liegt eine ganze Lücke. Hier füllen wir sie — mit Use-Cases, die schon heute laufen: Copilot, Power Platform, n8n, eigene Pipelines. Keine Mitarbeiter werden ersetzt — die statische Arbeit verschwindet.",
+  "problem": [
+    "Der Vorstand erwartet eine AI-Strategie bis Q3. Drei Berater liefern PowerPoints mit Buzzwords, aber keinen Use-Case, den dein Team morgen anfassen könnte.",
+    "Deine Fachbereiche kleben Daten zwischen drei Systemen hin und her, schreiben dieselben Mails zum hundertsten Mal, klassifizieren Tickets manuell. Daneben diskutiert das Haus über „AI-Strategie\". Beides läuft parallel, keiner spricht es aus.",
+    "Datenschutz, AVV, EU-Region — niemand weiß genau, was geht und was nicht. Aus Unsicherheit wird Stillstand. Wettbewerber, die einfach machen, ziehen vorbei."
+  ],
+  "outcomes": [
+    "Eine priorisierte Use-Case-Liste mit ehrlicher Aufwand/Nutzen-Bewertung — keine Buzzword-Sammlung.",
+    "Ein laufender Pilot in einer Fachabteilung, mit messbarem Vorher/Nachher.",
+    "Workflow-Automation für die Prozesse, wo gar keine LLM nötig ist — direkter ROI.",
+    "Ein dokumentiertes Datenschutz-Setup mit AVV und Rollen-Modell, das deine Compliance-Funktion mitträgt.",
+    "Klare Tool-Empfehlung: Microsoft-Stack, eigene LLM-Pipeline oder n8n — abhängig von deinen Daten, nicht vom Verkaufsdruck."
+  ],
+  "scope": [
+    "AI- und Automatisierungs-Roadmap-Workshop (2 Tage vor Ort)",
+    "Use-Case-Identifikation und Priorisierung",
+    "Pilot mit Copilot, Copilot Studio oder Custom-LLM-Pipeline",
+    "RAG-Pipeline auf eigenen Daten (SharePoint, Confluence, eigene DBs)",
+    "Workflow-Automation mit Power Automate oder n8n",
+    "AVV- und Datenschutz-Klärung für AI-Vendoren",
+    "Schulung des Pilot-Teams, Übergabe-Dokumentation"
+  ],
+  "tags": [
+    "Copilot",
+    "Power Platform",
+    "n8n",
+    "RAG",
+    "AVV · EU-Region"
+  ],
+  "caseRefs": [],
+  "pricing": "Auf Anfrage · Pilot nach Lagebild",
+  "duration": "4 – 8 Wochen",
+  "metaDesc": "KI & Automatisierung für den Mittelstand: Copilot, Workflow-Automation, RAG-Pipelines. Use-Case statt PowerPoint, DSGVO-konform und EU-only möglich.",
+  "faqs": [
+    {
+      "q": "Wir wissen nicht, wo KI bei uns Sinn macht. Wo fangen wir an?",
+      "a": "Guter Startpunkt. Zwei Tage vor Ort, in deinen Fachbereichen. Wir gehen die täglichen Prozesse durch und finden konkrete Kandidaten — Aufwand gegen Nutzen, was kostet die Lizenz, was die Eigenentwicklung. Am Ende eine priorisierte Liste. Ohne Verpflichtung zum Pilot."
+    },
+    {
+      "q": "Müssen unsere Daten in die USA?",
+      "a": "Nein, nicht zwingend. Azure OpenAI in EU-Region, on-prem-LLMs wie Llama oder Mistral, Anthropic Claude Enterprise mit EU-Endpoint — drei echte Optionen. Was passt, entscheidet sich am Use-Case und an der Sensibilität deiner Daten. Compliance sitzt von Anfang an mit am Tisch, nicht hinterher."
+    },
+    {
+      "q": "Brauchen wir Copilot-Lizenzen?",
+      "a": "Kommt drauf an. Für viele Workflows reicht ein Power-Automate-Flow ohne LLM. Brauchst du eine LLM: Microsoft Copilot (am tightesten in M365 integriert), eigene OpenAI- oder Anthropic-Anbindung (flexibler, mehr Kontrolle) oder n8n plus LLM-Endpoint (am günstigsten, mehr Eigenleistung). Kosten-Vergleich kommt im Engagement."
+    },
+    {
+      "q": "Was passiert nach dem Pilot?",
+      "a": "Klare Empfehlung: Roll-out, iterieren oder abbrechen. Schriftliche Bewertung mit Vorher/Nachher-Zahlen aus dem Piloten. Bei Roll-out: Übergabe an dein Team oder Anschluss-Engagement. Kein Lock-in."
+    },
+    {
+      "q": "Werden bei uns Stellen wegfallen?",
+      "a": "Die ehrliche Antwort: nein, aber Aufgaben verändern sich. KI nimmt die Arbeit ab, die keiner gern macht — Mails klassifizieren, Daten umtippen, Standard-Reports bauen. Was bleibt, ist Fachurteil, Kundengespräch, Entscheidung. Wer dafür ausgebildet ist, wird wertvoller, nicht weniger gebraucht."
+    },
+    {
+      "q": "Was, wenn wir keine M365-Basis haben?",
+      "a": "Dann ist Leistung 02 (Moderne IT & Cloud) der erste Schritt. KI ohne saubere Daten-Basis funktioniert nicht — Copilot braucht SharePoint strukturiert, RAG braucht zugängliche Quellen. Wir starten mit dem, was zuerst trägt."
+    }
+  ],
+  "iconName": "Brain"
+}

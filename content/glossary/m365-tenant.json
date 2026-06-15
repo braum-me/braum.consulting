@@ -1,0 +1,14 @@
+{
+  "slug": "m365-tenant",
+  "term": "M365-Tenant",
+  "synonyms": [
+    "Tenant",
+    "Microsoft-365-Tenant"
+  ],
+  "category": "technik",
+  "definition": "Eine eigenständige Microsoft-365-Instanz für eine Organisation. Enthält Identitäten (Entra ID), Mailboxen (Exchange Online), SharePoint, Teams. Bei Akquisitionen entstehen oft mehrere Tenants, die später konsolidiert werden müssen.",
+  "related": [
+    "entra-id",
+    "conditional-access"
+  ]
+}

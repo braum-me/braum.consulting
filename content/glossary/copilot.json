@@ -1,0 +1,10 @@
+{
+  "slug": "copilot",
+  "term": "Microsoft Copilot",
+  "synonyms": ["M365 Copilot", "Microsoft 365 Copilot"],
+  "category": "technik",
+  "definition": "Generativer-KI-Assistent in Microsoft-365-Apps (Word, Excel, Outlook, Teams). Greift auf Tenant-interne Daten zu, daher abhängig von sauber konfigurierten Berechtigungen und Doku-Qualität.",
+  "longForm": "Copilot ist nur so gut wie der Tenant darunter. Weil der Assistent über den Microsoft-Graph auf alles zugreift, was ein Nutzer sehen darf, legt eine Copilot-Einführung gnadenlos offen, was vorher niemandem auffiel: zu weit gesetzte SharePoint-Berechtigungen, veraltete Dokumente, fehlende Struktur. „Oversharing“ wird zum echten Risiko — Copilot zitiert eben auch das Gehaltsblatt, das im falschen Ordner liegt. Deshalb ist die Technik selten das Problem, die Vorbereitung schon: Berechtigungen aufräumen, sensible Daten klassifizieren, eine gepflegte Wissensbasis bereitstellen, damit der Assistent aus Substanz schöpft statt aus veralteten Fundstücken. Wer Copilot ohne dieses Fundament ausrollt, bekommt entweder Floskeln oder ein Datenschutz-Problem. Mit Fundament wird er zum spürbaren Produktivitäts-Hebel — gerade für Wissensarbeit und Onboarding.",
+  "related": ["m365-tenant", "ai-governance", "rag", "ki-agenten", "sharepoint-dms"],
+  "tool": { "href": "/werkzeuge/ki-readiness", "label": "Ist mein Betrieb bereit für KI?" }
+}

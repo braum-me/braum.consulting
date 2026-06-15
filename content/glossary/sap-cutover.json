@@ -1,0 +1,13 @@
+{
+  "slug": "sap-cutover",
+  "term": "SAP-Cutover",
+  "synonyms": [
+    "Cutover",
+    "SAP-Go-Live"
+  ],
+  "category": "industrie",
+  "definition": "Der Wechsel-Moment von einem Alt-ERP auf SAP S/4HANA. Cutover-Fenster werden typisch am Wochenende geplant, mit Rollback-Plan und Industrie-Drill am Vortag, um Produktionsausfall zu vermeiden.",
+  "related": [
+    "s4hana"
+  ]
+}

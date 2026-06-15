@@ -1,0 +1,14 @@
+{
+  "slug": "festpreis",
+  "term": "Festpreis vs. Tagessatz",
+  "synonyms": [
+    "Festpreis",
+    "Tagessatz"
+  ],
+  "category": "methodik",
+  "definition": "Zwei Abrechnungsmodelle mit unterschiedlicher Risikoverteilung. Festpreis verlangt ein klares Ergebnis und legt das Risiko beim Lieferanten — passt für umrissene Vorhaben. Tagessatz passt für offene Phasen, in denen der Weg erst entsteht. Das Lagebild klärt, welches Modell wofür.",
+  "related": [
+    "lagebild",
+    "lotsenprinzip"
+  ]
+}

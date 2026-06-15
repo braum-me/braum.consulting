@@ -1,0 +1,13 @@
+{
+  "slug": "mfa",
+  "term": "MFA",
+  "synonyms": [
+    "Multi-Faktor-Authentifizierung",
+    "Zwei-Faktor-Authentifizierung",
+    "2FA"
+  ],
+  "category": "technik",
+  "definition": "Zweiter Nachweis zusätzlich zum Passwort — etwa eine App-Bestätigung oder ein Passkey. Stoppt die meisten Account-Übernahmen, weil ein gestohlenes Passwort allein nicht mehr reicht. Heute Mindeststandard, nicht Kür.",
+  "longForm": "MFA ist die wirksamste einzelne Maßnahme gegen Account-Übernahmen — sie blockiert die große Mehrheit automatisierter Angriffe, weil ein gestohlenes oder erratenes Passwort allein nicht mehr reicht. Aber nicht jeder Faktor ist gleich stark. SMS-Codes sind besser als nichts, aber per SIM-Swapping angreifbar. App-Bestätigungen über den Authenticator sind solide. Phishing-resistente Verfahren wie Passkeys oder FIDO2-Schlüssel sind der Goldstandard — sie lassen sich nicht abphishen, weil der Faktor an die echte Domain gebunden ist und auf einer gefälschten Seite schlicht nicht funktioniert. Für den Mittelstand heißt das: MFA überall verpflichtend, am besten über Conditional Access erzwungen, und für Admin- und sensible Konten direkt auf Passkeys gehen. Gegen „MFA-Müdigkeit“ — das gedankenlose Wegklicken ständiger Push-Anfragen — hilft Number-Matching.",
+  "related": ["conditional-access", "passkey", "phishing", "zero-trust"]
+}

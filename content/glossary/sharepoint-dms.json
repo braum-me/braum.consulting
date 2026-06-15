@@ -1,0 +1,14 @@
+{
+  "slug": "sharepoint-dms",
+  "term": "SharePoint als DMS",
+  "synonyms": [
+    "SharePoint",
+    "Dokumentenmanagement"
+  ],
+  "category": "technik",
+  "definition": "SharePoint als Dokumenten-Management-System statt als wilder Datei-Friedhof. Mit Metadaten, Versionierung und klaren Berechtigungen wird aus dem Standard-M365-Baustein eine geordnete Ablage — ohne Zusatz-Lizenz.",
+  "related": [
+    "m365-tenant",
+    "copilot"
+  ]
+}

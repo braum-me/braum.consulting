@@ -1,0 +1,1124 @@
+@import "tailwindcss";
+
+/* ============================================================================
+   BRAUM CONSULTING — Tokens (v2, dark-first dual-mode)
+   Quelle: docs/brand-system.md §3-6
+   Fonts: alle self-hosted via next/font/local (kein Google-Fonts-CDN)
+   ============================================================================ */
+
+@theme {
+  --font-display: var(--font-akmorn), var(--font-geist-sans), system-ui, sans-serif;
+  --font-body:    var(--font-geist-sans), system-ui, sans-serif;
+  --font-accent:  var(--font-instrument-serif), Georgia, serif;
+  --font-mono:    var(--font-geist-mono), ui-monospace, monospace;
+
+  --color-bg-base:     #0F0E0C;
+  --color-bg-elevated: #232220;
+  --color-fg-default:  #F2F0EB;
+  --color-fg-muted:    #9F9B92;
+  --color-fg-subtle:   #6C6862;
+  --color-brand:       #DC8044;
+  --color-brand-light: #92301E;
+
+  --radius-sm:   6px;
+  --radius-md:   10px;
+  --radius-lg:   14px;
+  --radius-xl:   20px;
+  --radius-pill: 999px;
+}
+
+:root {
+  /* Native UA-Widgets (Scrollbars, Form-Controls, Autofill) im Dark-Look —
+     verhindert weißes Aufblitzen bei Initial-Load und Native-Controls. */
+  color-scheme: dark;
+
+  /* ── Brand pair ──────────────────────────────────────────────────────── */
+  --brand-dark:        #DC8044;
+  --brand-dark-hover:  #E89254;
+  --brand-dark-glow:   rgba(220, 128, 68, 0.32);
+
+  --brand-light:       #92301E;
+  --brand-light-hover: #A33A26;
+  --brand-light-glow:  rgba(146, 48, 30, 0.18);
+
+  --brand:        var(--brand-dark);
+  --brand-strong: var(--brand-light);
+  --brand-hover:  var(--brand-dark-hover);
+  --brand-glow:   var(--brand-dark-glow);
+
+  /* Accent — Button-Primary, distinct from --brand */
+  --accent:       #C8622A;
+  --accent-hover: #D87434;
+  --accent-glow:  rgba(200, 98, 42, 0.32);
+  --on-accent:    #FBF0EA;
+
+  /* Cognac ramp */
+  --cognac-50:  #FBEFEA;
+  --cognac-100: #F6D5C6;
+  --cognac-200: #EBAE93;
+  --cognac-300: #E0743A;
+  --cognac-400: #CC6035;
+  --cognac-500: #A53922;
+  --cognac-600: #872B17;
+  --cognac-700: #69200F;
+  --cognac-800: #4A1408;
+  --cognac-900: #2B0904;
+
+  --amber-300: #F0944A;
+  --amber-400: #DC7B30;
+  --amber-500: #C26420;
+
+  /* Neutral ramp — warm graphite */
+  --neutral-50:  #F7F6F4;
+  --neutral-100: #EFEEEB;
+  --neutral-200: #DDDBD6;
+  --neutral-300: #BAB6AE;
+  --neutral-400: #8C8881;
+  --neutral-500: #5F5C57;
+  --neutral-600: #43413D;
+  --neutral-700: #2E2D2A;
+  --neutral-800: #1F1E1C;
+  --neutral-850: #161513;
+  --neutral-900: #0F0E0C;
+
+  /* Semantic */
+  --success-fg: #6CB082;
+  --success-bg: #1A2B20;
+  --warning-fg: #E0B055;
+  --warning-bg: #2B2110;
+  --error-fg:   #E37261;
+  --error-bg:   #2C1612;
+  --info-fg:    #7CA9CC;
+  --info-bg:    #131F2A;
+
+  /* ── DARK MODE (default) ─────────────────────────────────────────────── */
+  --bg-base:     #0F0E0C;
+  --bg-subtle:   #161513;
+  --bg-muted:    #1C1B18;
+  --bg-elevated: #232220;
+  --bg-overlay:  #2A2826;
+  --bg-inverse:  #F7F6F4;
+
+  --fg-default:  #F2F0EB;
+  --fg-muted:    #9F9B92;
+  /* fg-subtle auf #827E77 angehoben (4.78:1 vs bg-base) — vorher #6C6862
+     (3.49:1) verfehlte WCAG AA für Normaltext. Wird für Eyebrows/Captions
+     in kleinen Größen genutzt, daher AA-konform halten. */
+  --fg-subtle:   #827E77;
+  --fg-faint:    #4A4742;
+  --fg-inverse:  #0F0E0C;
+  --fg-brand:    var(--brand);
+  --fg-link:     var(--cognac-400);
+
+  --border-subtle:  rgba(242, 240, 235, 0.06);
+  --border-default: rgba(242, 240, 235, 0.10);
+  --border-strong:  rgba(242, 240, 235, 0.22);
+  --border-brand:   rgba(204, 96, 53, 0.36);
+
+  --on-brand:       #FBF0EA;
+  --on-brand-muted: rgba(251, 240, 234, 0.72);
+
+  /* ── Type scale ──────────────────────────────────────────────────────── */
+  --t-display-1: 104px;
+  --t-display-2: 76px;
+  --t-display-3: 56px;
+  --t-h1: 44px;
+  --t-h2: 32px;
+  --t-h3: 24px;
+  --t-h4: 19px;
+  --t-h5: 16px;
+  --t-h6: 13px;
+  --t-body-lg: 18px;
+  --t-body:    16px;
+  --t-body-sm: 14px;
+  --t-caption: 12px;
+  --t-micro:   11px;
+
+  --tr-display: -0.035em;
+  --tr-heading: -0.022em;
+  --tr-body:    -0.005em;
+  --tr-ui:       0;
+  --tr-eyebrow:  0.16em;
+
+  --lh-display: 0.94;
+  --lh-heading: 1.05;
+  --lh-snug:    1.25;
+  --lh-body:    1.6;
+  --lh-loose:   1.72;
+
+  /* ── Spacing (4px base) ──────────────────────────────────────────────── */
+  --s-0:   0;
+  --s-1:   4px;
+  --s-2:   8px;
+  --s-3:   12px;
+  --s-4:   16px;
+  --s-5:   20px;
+  --s-6:   24px;
+  --s-8:   32px;
+  --s-10:  40px;
+  --s-12:  48px;
+  --s-16:  64px;
+  --s-20:  80px;
+  --s-24:  96px;
+  --s-32:  128px;
+  --s-40:  160px;
+  --s-48:  192px;
+
+  /* ── Radii ───────────────────────────────────────────────────────────── */
+  --r-none: 0;
+  --r-xs:   3px;
+  --r-sm:   6px;
+  --r-md:   10px;
+  --r-lg:   14px;
+  --r-xl:   20px;
+  --r-pill: 999px;
+
+  /* Borders */
+  --bw-hair:   0.5px;
+  --bw-thin:   1px;
+  --bw-medium: 1.5px;
+  --bw-thick:  2px;
+
+  /* Shadows — dark-first */
+  --sh-0: none;
+  --sh-1: 0 1px 1px rgba(0, 0, 0, 0.35), 0 1px 2px rgba(0, 0, 0, 0.30);
+  --sh-2: 0 2px 2px rgba(0, 0, 0, 0.40), 0 6px 12px rgba(0, 0, 0, 0.45);
+  --sh-3: 0 4px 8px rgba(0, 0, 0, 0.45), 0 16px 32px rgba(0, 0, 0, 0.55);
+  --sh-4: 0 8px 16px rgba(0, 0, 0, 0.55), 0 32px 64px rgba(0, 0, 0, 0.65);
+  --sh-glow:  0 0 0 1px rgba(204, 96, 53, 0.22), 0 0 32px rgba(204, 96, 53, 0.18);
+  --sh-focus: 0 0 0 3px rgba(204, 96, 53, 0.34);
+
+  /* Containers */
+  --container-narrow: 720px;
+  --container-text:   880px;
+  --container-wide:   1240px;
+  --container-full:   1440px;
+  --grid-columns: 12;
+  --grid-gutter:  24px;
+  --grid-margin:  64px;
+
+  /* Motion */
+  --ease-out-soft: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out:   cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-standard: cubic-bezier(0.4, 0.0, 0.2, 1);
+  --dur-fast: 120ms;
+  --dur-base: 220ms;
+  --dur-slow: 420ms;
+
+  /* ── Signature gradients ─────────────────────────────────────────────── */
+  --gradient-hero:
+    radial-gradient(55% 48% at 18% 0%, rgba(220, 128, 68, 0.30) 0%, rgba(146, 48, 30, 0.16) 45%, transparent 72%),
+    radial-gradient(40% 60% at 95% 90%, rgba(146, 48, 30, 0.24) 0%, transparent 60%),
+    linear-gradient(180deg, #0F0E0C 0%, #07060500 100%);
+
+  --gradient-mesh:
+    radial-gradient(40% 50% at 20% 30%, rgba(232, 146, 84, 0.44) 0%, transparent 65%),
+    radial-gradient(45% 55% at 80% 25%, rgba(204, 96, 53, 0.40) 0%, transparent 60%),
+    radial-gradient(50% 60% at 50% 90%, rgba(146, 48, 30, 0.36) 0%, transparent 65%),
+    linear-gradient(135deg, #0F0E0C 0%, #1F0E07 100%);
+
+  --gradient-section:
+    linear-gradient(180deg, #0F0E0C 0%, #161513 100%);
+
+  --gradient-hero-light:
+    radial-gradient(55% 48% at 18% 0%, rgba(146, 48, 30, 0.08) 0%, transparent 60%),
+    radial-gradient(40% 60% at 95% 90%, rgba(220, 128, 68, 0.05) 0%, transparent 60%),
+    linear-gradient(180deg, #F8F4EA 0%, #F0EAD9 100%);
+
+  --gradient-cream:
+    radial-gradient(50% 60% at 18% 20%, rgba(146, 48, 30, 0.08) 0%, transparent 60%),
+    radial-gradient(45% 55% at 85% 80%, rgba(220, 128, 68, 0.06) 0%, transparent 65%),
+    linear-gradient(135deg, #F8F4EA 0%, #EEE6D3 60%, #E5DDC9 100%);
+
+  /* Grain noise (8% opacity, white luminance) */
+  --noise-svg: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='280' height='280'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0 0.08 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+
+  --duotone-shadow:    #2B0904;
+  --duotone-highlight: #F49F4D;
+}
+
+/* ── LIGHT MODE — second first-class surface ───────────────────────────── */
+:root[data-theme="light"],
+.theme-light,
+.surface-light {
+  color-scheme: light;
+
+  --bg-base:     #F5F0E6;
+  --bg-subtle:   #EEE8DA;
+  --bg-muted:    #E5DDC9;
+  --bg-elevated: #FBF8EF;
+  --bg-overlay:  #F0EAD9;
+  --bg-inverse:  #0F0E0C;
+
+  --fg-default:  #1F1E1C;
+  --fg-muted:    #5F5C57;
+  --fg-subtle:   #8C8881;
+  --fg-faint:    #BAB6AE;
+  --fg-inverse:  #F5F0E6;
+  --fg-brand:    var(--brand-light);
+  --fg-link:     var(--brand-light);
+
+  --border-subtle:  rgba(31, 30, 28, 0.08);
+  --border-default: rgba(31, 30, 28, 0.14);
+  --border-strong:  rgba(31, 30, 28, 0.32);
+  --border-brand:   rgba(146, 48, 30, 0.26);
+
+  --brand:        var(--brand-light);
+  --brand-strong: var(--brand-dark);
+  --brand-hover:  var(--brand-light-hover);
+  --brand-glow:   var(--brand-light-glow);
+
+  /* Accent — gleicher Burnt-Orange in beiden Modes (Button-Primary) */
+  --accent:       #C8622A;
+  --accent-hover: #B25622;
+  --accent-glow:  rgba(200, 98, 42, 0.22);
+  --on-accent:    #FBF0EA;
+
+  --sh-1: 0 1px 1px rgba(31, 30, 28, 0.04), 0 1px 2px rgba(31, 30, 28, 0.04);
+  --sh-2: 0 1px 1px rgba(31, 30, 28, 0.05), 0 4px 8px -2px rgba(31, 30, 28, 0.06);
+  --sh-3: 0 2px 2px rgba(31, 30, 28, 0.05), 0 10px 24px -6px rgba(31, 30, 28, 0.10);
+  --sh-4: 0 4px 6px rgba(31, 30, 28, 0.06), 0 24px 48px -12px rgba(31, 30, 28, 0.18);
+  --sh-focus: 0 0 0 3px rgba(146, 48, 30, 0.22);
+  --sh-glow:  0 0 0 1px rgba(146, 48, 30, 0.14), 0 0 24px rgba(146, 48, 30, 0.10);
+}
+
+/* ── Base ──────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  background: #0F0E0C; /* Hard fallback vor CSS-Variable-Load */
+  background: var(--bg-base);
+  color: var(--fg-default);
+}
+
+/* Scrollbar immer sichtbar — vermeidet Layout-Shift bei Page-Wechsel
+   wenn eine Page kürzer ist als der Viewport. */
+html {
+  overflow-y: scroll;
+  /* Hard background — wenn body während mount ein paar px schmaler ist
+     als html (Scrollbar-Race), bleibt der freie Streifen bg-base, nicht
+     weiß. Verhindert „Filmstreifen"-Flash bei Initial-Load. */
+  background-color: #0F0E0C;
+}
+
+body {
+  /* Body explicit auf voller Breite, kein Auto-Margin */
+  width: 100%;
+  margin: 0;
+  min-height: 100vh;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--t-body);
+  line-height: var(--lh-body);
+  letter-spacing: var(--tr-body);
+  font-feature-settings: "cv11", "ss01", "ss03";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  /* overflow-x: clip statt hidden — clip macht body NICHT zum Scroll-
+     Container, daher funktioniert position:sticky in descendants weiter.
+     hidden würde sticky-TOC im Blog brechen. */
+  overflow-x: clip;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+/* ── Scrollbar — schmal, Dark/Brand-Ton, unaufdringlich ───────────────── */
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(200, 98, 42, 0.45) transparent;
+}
+/* WebKit / Blink */
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(242, 240, 235, 0.14);
+  border-radius: 999px;
+  /* Border erzeugt „Padding"-Look gegen den transparenten Track. */
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(200, 98, 42, 0.55);
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* ── Autofill — Dark statt weißem Chrome-Default ──────────────────────── */
+/* Chrome/Safari überschreiben Inputs bei Autofill mit hellem Gelb/Weiß.
+   Trick: inset box-shadow überdeckt den Native-Background, text-fill-color
+   hält den Text hell. transition delay verzögert das Zurückfallen. */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--fg-default);
+  -webkit-box-shadow: 0 0 0 1000px var(--bg-elevated) inset;
+  box-shadow: 0 0 0 1000px var(--bg-elevated) inset;
+  caret-color: var(--fg-default);
+  transition: background-color 9999s ease-in-out 0s;
+}
+
+/* Mouse-Klick (kein :focus-visible) zeigt keinen Outline — nur Keyboard.
+   Die zentralen :focus-visible-Regeln stehen gebündelt weiter unten
+   (Abschnitt „Focus-Visible (Keyboard-Navigation)"). */
+:focus {
+  outline: none;
+}
+
+/* ── Font-family utilities ─────────────────────────────────────────────── */
+.font-display { font-family: var(--font-display); }
+.font-body    { font-family: var(--font-body); }
+.font-accent  { font-family: var(--font-accent); }
+.font-mono    { font-family: var(--font-mono); }
+
+/* ── Type primitives ───────────────────────────────────────────────────── */
+.t-display-1 {
+  font-family: var(--font-display);
+  font-size: var(--t-display-1);
+  line-height: var(--lh-display);
+  letter-spacing: var(--tr-display);
+  font-weight: 900;
+}
+.t-display-2 {
+  font-family: var(--font-display);
+  font-size: var(--t-display-2);
+  line-height: var(--lh-display);
+  letter-spacing: var(--tr-display);
+  font-weight: 800;
+}
+.t-h1 {
+  font-family: var(--font-display);
+  font-size: var(--t-h1);
+  line-height: var(--lh-heading);
+  letter-spacing: var(--tr-heading);
+  font-weight: 700;
+}
+.t-h2 {
+  font-family: var(--font-display);
+  font-size: var(--t-h2);
+  line-height: var(--lh-heading);
+  letter-spacing: var(--tr-heading);
+  font-weight: 700;
+}
+.t-h3 {
+  font-family: var(--font-display);
+  font-size: var(--t-h3);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tr-heading);
+  font-weight: 600;
+}
+.t-eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--t-micro);
+  letter-spacing: var(--tr-eyebrow);
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--fg-subtle);
+}
+.t-body-lg {
+  font-family: var(--font-body);
+  font-size: var(--t-body-lg);
+  line-height: var(--lh-body);
+  letter-spacing: var(--tr-body);
+  font-weight: 400;
+}
+.t-body {
+  font-family: var(--font-body);
+  font-size: var(--t-body);
+  line-height: var(--lh-body);
+  font-weight: 400;
+}
+.t-mono {
+  font-family: var(--font-mono);
+  font-size: var(--t-body-sm);
+  line-height: var(--lh-snug);
+  font-weight: 400;
+}
+
+/* Italic-accent: Instrument Serif, brand colour. Max 2x pro Page. */
+.italic-accent {
+  font-family: var(--font-accent);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--brand);
+}
+
+/* Outlined ghost letterform (max 1x pro Page, nur Hero) */
+.t-outline {
+  font-family: var(--font-accent);
+  font-style: italic;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--brand);
+  letter-spacing: -0.025em;
+}
+
+/* ── Liquid-glass surfaces ─────────────────────────────────────────────── */
+.glass {
+  background: rgba(242, 240, 235, 0.04);
+  border: 1px solid rgba(242, 240, 235, 0.12);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.glass::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 1px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(242, 240, 235, 0.24) 50%,
+    transparent 100%);
+  pointer-events: none;
+}
+.glass-strong {
+  background: rgba(242, 240, 235, 0.06);
+  border: 1px solid rgba(242, 240, 235, 0.16);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  border-radius: 14px;
+  box-shadow:
+    inset 0 1px 0 rgba(242, 240, 235, 0.10),
+    0 8px 24px rgba(0, 0, 0, 0.35);
+  position: relative;
+}
+
+/* ── Liquid-Glass Card (iOS-style, AI-like depth) ─────────────────────
+   Multi-Layer Glass-Treatment für Cards. Mehr Tiefe als .glass-strong:
+   - Vertikaler Gradient als base (heller oben, dunkler unten — wirkt
+     als ob Licht von oben fällt)
+   - Subtle radial accent bloom in der oberen rechten Ecke
+   - Sehr fein gehörter accent-Border (rgba accent 0.16)
+   - Inner highlight oben + inner shadow unten für „pressed glass" Effekt
+   - Outer drop-shadow für Lift vom Hintergrund
+   - Specular top-highlight per ::before
+─────────────────────────────────────────────────────────────────────── */
+.glass-card {
+  position: relative;
+  background:
+    linear-gradient(145deg,
+      rgba(245, 245, 248, 0.13) 0%,
+      rgba(220, 220, 228, 0.05) 35%,
+      rgba(200, 200, 210, 0.04) 70%,
+      rgba(180, 180, 195, 0.02) 100%);
+  border: 1px solid rgba(245, 245, 250, 0.16);
+  backdrop-filter: blur(32px) saturate(170%);
+  -webkit-backdrop-filter: blur(32px) saturate(170%);
+  border-radius: var(--r-md);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.22),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.35),
+    0 12px 28px -8px rgba(0, 0, 0, 0.40),
+    0 28px 64px -16px rgba(0, 0, 0, 0.55);
+  overflow: hidden;
+  /* CSS-Variablen für Tilt + Cursor-Spotlight, JS-driven via CardTilt.tsx */
+  --tilt-x: 0deg;
+  --tilt-y: 0deg;
+  --spot-x: 50%;
+  --spot-y: 50%;
+  --spot-opacity: 0;
+  transform: perspective(1200px) rotateX(var(--tilt-x)) rotateY(var(--tilt-y));
+  transform-style: preserve-3d;
+  transition:
+    border-color 320ms var(--ease-out-soft),
+    transform    240ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow   320ms var(--ease-out-soft);
+}
+.glass-card::before {
+  /* Top-Specular Edge (silvery) + Side-Light oben links */
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.65) 50%, transparent 100%)
+      0 0 / 100% 1px no-repeat,
+    radial-gradient(50% 60% at 10% 0%, rgba(255, 255, 255, 0.10) 0%, transparent 55%),
+    radial-gradient(60% 50% at 100% 100%, rgba(220, 225, 230, 0.06) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 2;
+}
+.glass-card::after {
+  /* Amber-Bloom + Cursor-Spotlight.
+     Erster radial folgt Cursor-Position via --spot-x/--spot-y CSS-Vars
+     (von CardTilt.tsx live updated). Restliche Radials sind statisch. */
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(180px circle at var(--spot-x) var(--spot-y),
+                    rgba(220, 128, 68, 0.35) 0%, transparent 65%),
+    radial-gradient(80% 70% at 100% 0%,  rgba(220, 128, 68, 0.42) 0%, transparent 55%),
+    radial-gradient(70% 60% at 0% 100%,  rgba(200, 98, 42, 0.22)  0%, transparent 60%),
+    radial-gradient(60% 50% at 50% 50%,  rgba(220, 128, 68, 0.10) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 420ms var(--ease-out-soft);
+  pointer-events: none;
+  z-index: 1;
+}
+.glass-card:hover {
+  border-color: rgba(220, 128, 68, 0.45);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.32),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.35),
+    0 12px 28px -8px rgba(0, 0, 0, 0.40),
+    0 28px 64px -16px rgba(0, 0, 0, 0.55),
+    0 0 56px rgba(220, 128, 68, 0.35),
+    0 0 120px rgba(220, 128, 68, 0.18);
+  transform: perspective(1200px)
+             rotateX(var(--tilt-x))
+             rotateY(var(--tilt-y))
+             translateY(-2px);
+}
+.glass-card:hover::after {
+  opacity: 1;
+}
+/* Reduced-motion: Tilt deaktivieren */
+@media (prefers-reduced-motion: reduce) {
+  .glass-card,
+  .glass-card:hover {
+    transform: none !important;
+  }
+}
+
+/* External-Variante: dezent neutraler Hover ohne Amber-Bloom */
+.glass-card--external::after {
+  background: radial-gradient(
+    80% 60% at 100% 0%,
+    rgba(242, 240, 235, 0.10) 0%,
+    transparent 55%
+  );
+}
+.glass-card--external:hover {
+  border-color: rgba(242, 240, 235, 0.28);
+  box-shadow:
+    inset 0 1px 0 rgba(242, 240, 235, 0.18),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.35),
+    0 2px 4px rgba(0, 0, 0, 0.25),
+    0 18px 48px -8px rgba(0, 0, 0, 0.55);
+}
+
+/* ── Animated Gradient Blobs ─────────────────────────────────────────────
+   Wandernde Radial-Gradients als Hintergrund. CSS-only, läuft im Compositor.
+   Variants:
+     .ag-hero    — Voller Bloom, alle 4 Blobs, schnellere Bewegung
+     .ag-mesh    — Dichter, mehr Mesh-Look
+     .ag-subtle  — Stiller, für Section-Backgrounds
+   ─────────────────────────────────────────────────────────────────────── */
+.ag-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  will-change: transform, opacity;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  /* Animation-fill-mode backwards stellt sicher dass der `from`-state
+     SOFORT beim ersten Paint angewendet wird — verhindert 1-Frame-Flash
+     wo blob an "untransformed" position kurz sichtbar ist. */
+  animation-fill-mode: backwards !important;
+  /* Force GPU-Layer ab erstem Paint, kein Layer-Promotion-Glitch. */
+  transform: translateZ(0);
+}
+
+.ag-blob--1 {
+  width: 60vw;
+  height: 60vw;
+  top: -12%;
+  left: -10%;
+  background: radial-gradient(circle, rgba(220, 128, 68, 0.50) 0%, transparent 65%);
+  animation: ag-drift-1 18s ease-in-out infinite;
+}
+.ag-blob--2 {
+  width: 52vw;
+  height: 52vw;
+  top: 8%;
+  right: -12%;
+  background: radial-gradient(circle, rgba(200, 98, 42, 0.46) 0%, transparent 65%);
+  animation: ag-drift-2 22s ease-in-out infinite;
+}
+.ag-blob--3 {
+  width: 65vw;
+  height: 65vw;
+  bottom: -22%;
+  left: 16%;
+  background: radial-gradient(circle, rgba(146, 48, 30, 0.42) 0%, transparent 65%);
+  animation: ag-drift-3 26s ease-in-out infinite;
+}
+.ag-blob--4 {
+  width: 44vw;
+  height: 44vw;
+  bottom: -6%;
+  right: -2%;
+  background: radial-gradient(circle, rgba(232, 146, 84, 0.34) 0%, transparent 65%);
+  animation: ag-drift-4 20s ease-in-out infinite;
+}
+
+/* Mesh-Variante: mehr Sättigung */
+.ag-mesh.ag-blob--1 { background: radial-gradient(circle, rgba(232, 146, 84, 0.50) 0%, transparent 65%); }
+.ag-mesh.ag-blob--2 { background: radial-gradient(circle, rgba(204, 96, 53,  0.46) 0%, transparent 65%); }
+.ag-mesh.ag-blob--3 { background: radial-gradient(circle, rgba(146, 48, 30,  0.42) 0%, transparent 65%); }
+.ag-mesh.ag-blob--4 { background: radial-gradient(circle, rgba(220, 128, 68, 0.34) 0%, transparent 65%); }
+
+/* Subtle-Variante: deutlich gedämpfter */
+.ag-subtle.ag-blob--1 { background: radial-gradient(circle, rgba(220, 128, 68, 0.18) 0%, transparent 65%); filter: blur(100px); }
+.ag-subtle.ag-blob--2 { background: radial-gradient(circle, rgba(200, 98, 42,  0.16) 0%, transparent 65%); filter: blur(100px); }
+.ag-subtle.ag-blob--3 { background: radial-gradient(circle, rgba(146, 48, 30,  0.16) 0%, transparent 65%); filter: blur(110px); }
+.ag-subtle.ag-blob--4 { background: radial-gradient(circle, rgba(232, 146, 84, 0.12) 0%, transparent 65%); filter: blur(100px); }
+
+@keyframes ag-drift-1 {
+  0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.85; }
+  50%      { transform: translate(8vw, 6vh) scale(1.10); opacity: 1; }
+}
+@keyframes ag-drift-2 {
+  0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.80; }
+  50%      { transform: translate(-7vw, 5vh) scale(1.08); opacity: 0.95; }
+}
+@keyframes ag-drift-3 {
+  0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.78; }
+  50%      { transform: translate(-6vw, -7vh) scale(1.12); opacity: 0.92; }
+}
+@keyframes ag-drift-4 {
+  0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.82; }
+  50%      { transform: translate(6vw, -5vh) scale(1.06); opacity: 0.98; }
+}
+
+/* Accent CTA — subtle continuous shimmer */
+@keyframes accent-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(200, 98, 42, 0.0), var(--sh-1);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(200, 98, 42, 0.12), 0 0 24px rgba(200, 98, 42, 0.30);
+  }
+}
+.btn-accent-pulse {
+  animation: accent-pulse 3.6s ease-in-out infinite;
+}
+
+/* Stefan-Badge Hover Tilt */
+.tilt-on-hover {
+  transition: transform 320ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 320ms ease;
+}
+.tilt-on-hover:hover {
+  transform: rotate(-2deg) scale(1.04);
+  box-shadow: var(--sh-3), 0 0 24px rgba(200, 98, 42, 0.35);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .ag-blob {
+    animation: none !important;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ── Page-Fade-In on Navigation ───────────────────────────────────────
+   Persistent-Layout-Pattern: Nav + Footer bleiben stehen, nur der
+   <main>-Content wird via PageFade re-mounted und triggert dann diese
+   Animation. Sanfter Fade + leichter y-Shift, 380ms.
+
+   Initial-Page-Load nutzt KEIN page-fade-in (PageFade lässt animKey=0
+   weg) — damit Mainpage-Hero seine eigenen Mount-Animationen sauber
+   abspielen kann ohne Overlap. */
+/* Page-Transitions werden in PageFade.tsx via motion.div +
+   AnimatePresence verwaltet. Kein CSS-Keyframe mehr nötig. */
+
+/* ── Blog Article — professionelle Lese-Typografie ───────────────────── */
+
+/* Drop-Cap auf dem ersten Paragraphen direkt nach dem Article-Start
+   (oder nach einem H2/H3). Subtle aber editorial. */
+.blog-article > .blog-paragraph:first-child::first-letter {
+  font-family: var(--font-accent);
+  font-weight: 400;
+  font-style: normal;
+  float: left;
+  font-size: 4.2em;
+  line-height: 0.82;
+  margin-right: 0.10em;
+  margin-top: 0.04em;
+  color: var(--brand);
+}
+
+/* Optical text-justify mit hängenden Satzzeichen */
+.blog-article .blog-paragraph {
+  hanging-punctuation: first last;
+  text-wrap: pretty;
+}
+
+/* Heading-Anchor # nur on hover */
+.blog-article h2,
+.blog-article h3 {
+  position: relative;
+}
+
+/* Bessere Link-Styles innerhalb des Articles */
+.blog-article p a:not([class*="font-mono"]),
+.blog-article li a:not([class*="font-mono"]) {
+  color: var(--brand);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color var(--dur-base) var(--ease-out-soft),
+              text-decoration-color var(--dur-base) var(--ease-out-soft);
+}
+.blog-article p a:not([class*="font-mono"]):hover,
+.blog-article li a:not([class*="font-mono"]):hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+
+/* Erste Buchstaben-Drop-Cap nicht bei list-items/quotes */
+.blog-article li::first-letter,
+.blog-article blockquote::first-letter {
+  float: none;
+  font-size: inherit;
+  margin: 0;
+  color: inherit;
+  font-family: inherit;
+}
+
+@media (max-width: 640px) {
+  .blog-article > .blog-paragraph:first-child::first-letter {
+    font-size: 3.4em;
+  }
+}
+
+/* ── Focus-Visible (Keyboard-Navigation) ──────────────────────────────
+   Single source of truth für Keyboard-Fokus-Ringe. --brand (#DC8044,
+   6.63:1 vs bg-base) gibt den kontraststärksten Ring. 2px Outline +
+   2px Offset, damit der Ring auch auf Elementen mit dunklem Border
+   klar abgesetzt sichtbar bleibt. */
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+  border-radius: var(--r-xs);
+}
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+/* Form-Felder akzentuieren zusätzlich ihren eigenen Border auf Fokus. */
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  border-color: var(--brand) !important;
+}
+
+/* ── Hover-States nur auf echte Pointer-Devices (Touch-fix) ─────────── */
+@media (hover: none) {
+  .group:hover .group-hover\:opacity-100,
+  .group:hover .group-hover\:translate-x-0\.5,
+  .group:hover .group-hover\:-translate-y-0\.5 {
+    opacity: initial;
+    transform: initial;
+  }
+}
+
+/* ── Reveal-Line — Clip-Path-Wipe per Zeile für Hero-H1s ─────────────── */
+.reveal-line {
+  display: block;
+  clip-path: inset(0 100% 0 0);
+  animation: bc-line-reveal 0.95s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: var(--reveal-delay, 0ms);
+}
+@keyframes bc-line-reveal {
+  0%   { clip-path: inset(0 100% 0 0); }
+  100% { clip-path: inset(0 -3% 0 0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal-line {
+    clip-path: none;
+    animation: none;
+  }
+}
+
+/* ── CTA-Primary Polish ──────────────────────────────────────────────── */
+/* Subtiler Glow-Ring der bei Hover aufpoppt, plus -1px Lift.            */
+/* Wird auf Primary-CTA-Buttons (Hero, Kontakt, 404 etc.) gelegt.        */
+.cta-primary {
+  position: relative;
+  isolation: isolate;
+  transition:
+    transform var(--dur-base) var(--ease-out-soft),
+    box-shadow var(--dur-base) var(--ease-out-soft);
+}
+.cta-primary::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  z-index: -1;
+  box-shadow:
+    0 0 0 1px rgba(200, 98, 42, 0.55),
+    0 10px 32px rgba(200, 98, 42, 0.40),
+    0 0 56px rgba(220, 128, 68, 0.32);
+  transition: opacity var(--dur-base) var(--ease-out-soft);
+}
+.cta-primary:hover {
+  transform: translateY(-1px);
+}
+.cta-primary:hover::after {
+  opacity: 1;
+}
+.cta-primary:active {
+  transform: translateY(0);
+  transition-duration: 80ms;
+}
+@media (prefers-reduced-motion: reduce) {
+  .cta-primary,
+  .cta-primary::after {
+    transition: none;
+  }
+  .cta-primary:hover {
+    transform: none;
+  }
+}
+
+/* ── CTA-Ghost (sekundärer CTA — text-link mit hover-underline) ──────── */
+.cta-ghost {
+  position: relative;
+  transition: color var(--dur-base) var(--ease-out-soft);
+}
+.cta-ghost::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -3px;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform var(--dur-base) var(--ease-out-soft);
+}
+.cta-ghost:hover::after {
+  transform: scaleX(1);
+}
+@media (prefers-reduced-motion: reduce) {
+  .cta-ghost::after {
+    transition: none;
+  }
+}
+
+/* ── Mega-Menu Card Accent-Line ──────────────────────────────────────── */
+.mega-card:hover > span:nth-child(2) {
+  transform: scaleX(1) !important;
+}
+
+/* ── Portfolio Card Accent-Line ──────────────────────────────────────── */
+.portfolio-card:hover > span:nth-child(1) {
+  transform: scaleX(1) !important;
+}
+
+/* ── Print-Stylesheet — global + Blog/Cases ──────────────────────────
+   Globale Druck-Regeln gelten für ALLE Seiten (Methodik, Impressum,
+   Kontakt, Datenschutz …): Light-on-White, dekorative Layer aus,
+   sinnvolle Ränder. Die Blog/Case-spezifischen Regeln folgen darunter.
+   Die Briefing-Seite (app/briefing/[token]) bringt ihr eigenes,
+   stärker spezifiziertes BRIEFING_PRINT_CSS mit — kollidiert nicht. */
+@media print {
+  :root {
+    color-scheme: light;
+  }
+
+  html, body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  /* Globaler Default: dunkle Flächen aus → weißer Grund, schwarzer Text.
+     Backgrounds/Shadows neutralisieren, damit kein Toner verschwendet wird
+     und nichts dunkel druckt. Spezifischere Regeln (Cards etc.) überschreiben. */
+  body * {
+    background-image: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* Dekorative Layer komplett ausblenden: AccentGlow, Monogram-Outline,
+     Partikel/Canvas/Three.js, Grain-Noise, Gradient-Blobs. */
+  canvas,
+  svg[aria-hidden="true"],
+  .ag-blob,
+  [class*="AccentGlow"],
+  [class*="accent-glow"],
+  [data-decorative],
+  [data-noise],
+  [class*="MonogramOutline"],
+  [class*="monogram"],
+  .t-outline {
+    display: none !important;
+  }
+
+  /* Links: Brand-Akzent raus, schlicht schwarz unterstrichen. URL-Anhang
+     wird unten gezielt nur für externe Blog-Links gesetzt — global KEIN
+     URL-Append, damit Nav-/UI-Links die Seite nicht zumüllen. */
+  a {
+    color: #000000 !important;
+    text-decoration: underline;
+  }
+
+  /* Chrome ausblenden */
+  nav, header, footer, .site-footer,
+  .site-header, .briefing-screen-only, .briefing-actions,
+  [aria-label="Beitrag teilen"],
+  [aria-label="Inhalt"],
+  [aria-label="Case-Sektionen"],
+  [aria-label="Tags"],
+  [role="status"],
+  [aria-hidden="true"],
+  [aria-label="Lädt"],
+  .btn-accent-pulse,
+  [data-cursor],
+  .ag-blob {
+    display: none !important;
+  }
+
+  /* Container full-width */
+  main, article, .blog-article, section {
+    background: #ffffff !important;
+    color: #000000 !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  /* Headings nicht splitten */
+  h1, h2, h3, h4, h5, h6 {
+    color: #000000 !important;
+    page-break-after: avoid;
+    break-after: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  p, li, blockquote {
+    color: #000000 !important;
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* URLs externer Links inline drucken */
+  .blog-article a[href^="http"]:not([href*="braum.consulting"])::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #555555;
+    word-break: break-all;
+  }
+
+  /* Cards Light */
+  .glass-card,
+  .glossar-card {
+    background: #fafafa !important;
+    border: 1px solid #d4d4d4 !important;
+    box-shadow: none !important;
+  }
+
+  /* Drop-Cap aus */
+  .blog-article > .blog-paragraph:first-child::first-letter {
+    float: none;
+    font-size: inherit;
+    margin: 0;
+    color: #000000;
+    font-family: inherit;
+  }
+
+  /* Code-Blocks */
+  pre, code {
+    background: #f4f4f4 !important;
+    color: #000000 !important;
+    border: 1px solid #d4d4d4 !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    overflow: visible !important;
+    white-space: pre-wrap !important;
+  }
+
+  .font-mono {
+    color: #555555 !important;
+  }
+
+  /* Brand-Print-Header oben auf Seite 1 */
+  .blog-article::before,
+  [data-case-article]::before {
+    content: "braum.consulting · Stefan Braum";
+    display: block;
+    font-size: 10pt;
+    color: #777777;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 8pt;
+    margin-bottom: 16pt;
+  }
+
+  @page {
+    margin: 2cm 2cm 2.5cm 2cm;
+    size: A4;
+  }
+  @page :first {
+    margin-top: 3cm;
+  }
+}
+
+/* ── Mobile-Performance ─────────────────────────────────────────────────
+   backdrop-filter ist auf Mobile ein Repaint-Killer (Jank beim Scrollen).
+   Unter 768px: Blur abschalten, dafür solidere, gut lesbare Hintergründe.
+   !important überschreibt die Inline-Styles (sticky Header etc.). */
+@media (max-width: 767px) {
+  .glass-card {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    background: var(--bg-elevated) !important;
+    transform: none !important;
+  }
+  .site-header {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+}
+
+/* ── Scroll-Container ohne sichtbare Scrollbar (Karussells) ───────────────
+   Inhalt bleibt per Drag/Wheel/Tastatur scrollbar, nur die Leiste ist weg. */
+.no-scrollbar {
+  scrollbar-width: none;          /* Firefox */
+  -ms-overflow-style: none;       /* alte Edge */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;                  /* WebKit/Blink */
+}

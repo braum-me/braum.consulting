@@ -1,0 +1,14 @@
+{
+  "slug": "phishing",
+  "term": "Phishing",
+  "synonyms": ["Spear-Phishing", "CEO-Fraud"],
+  "category": "technik",
+  "definition": "Täuschungsangriff per Mail, SMS oder Anruf, der Empfänger zur Preisgabe von Zugangsdaten oder zu Überweisungen verleitet. Häufigster Einstiegspunkt für größere Vorfälle — Mensch statt Technik als Ziel.",
+  "longForm": "Phishing setzt nicht an der Technik an, sondern am Menschen: eine täuschend echte Mail vom „Microsoft-Support“, eine angebliche Rechnung, eine dringende Bitte des Geschäftsführers um eine Überweisung (CEO-Fraud). Spear-Phishing ist die gezielte Variante — auf eine konkrete Person zugeschnitten, oft nach LinkedIn-Recherche. Generative KI macht solche Mails sprachlich fehlerfrei und damit gefährlicher; die alten Erkennungsmerkmale (holpriges Deutsch) greifen nicht mehr. Wirksamer Schutz ist mehrschichtig: technische Filter und DMARC gegen Spoofing, phishing-resistente Anmeldung (MFA, besser Passkeys) gegen geklaute Passwörter — und Awareness, damit Mitarbeitende im Zweifel kurz innehalten und nachfragen. Einmal-Schulungen verpuffen; was wirkt, sind regelmäßige, realistische Simulationen ohne Bloßstellung. Ziel ist eine Kultur, in der Nachfragen normal ist, nicht peinlich.",
+  "related": ["mfa", "passkey", "ransomware", "zero-trust"],
+  "tool": { "href": "/werkzeuge/phishing-quiz", "label": "Erkennst du die Fälschung?" },
+  "source": {
+    "label": "BSI · Phishing",
+    "url": "https://www.bsi.bund.de/dok/phishing"
+  }
+}

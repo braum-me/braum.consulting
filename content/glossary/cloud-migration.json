@@ -1,0 +1,10 @@
+{
+  "slug": "cloud-migration",
+  "term": "Cloud-Migration",
+  "synonyms": ["Cloud-Umzug", "Lift-and-Shift"],
+  "category": "technik",
+  "definition": "Der Umzug von Anwendungen, Daten und Arbeitsplätzen aus dem eigenen Serverraum in die Cloud — etwa von lokalem Exchange und Fileservern nach Microsoft 365. Selten reines Umkopieren, oft eine Chance zum Aufräumen.",
+  "longForm": "Cloud-Migration ist im Mittelstand meist der Weg weg vom gewachsenen On-Prem-Wildwuchs: Exchange im Keller, mehrere Fileshares, VPN fürs Homeoffice, undurchsichtige Berechtigungen. Für den Umzug gibt es Muster — von „Lift-and-Shift“ (möglichst unverändert verlagern, schnell, aber Altlasten kommen mit) bis „Re-Platforming“ (auf dem Weg modernisieren). Bei Microsoft 365 heißt das konkret: Postfächer nach Exchange Online, Dateien nach SharePoint/OneDrive, Identitäten nach Entra ID. Der eigentliche Aufwand steckt selten im Kopieren, sondern in der Vorbereitung: Was wird wirklich gebraucht, welche Daten dürfen wohin (DSGVO, Datenresidenz), wie sieht das Berechtigungskonzept danach aus? Eine Co-Existence-Phase hält den Betrieb während des Umzugs störungsfrei. Gut gemacht ist die Migration kein Risiko, sondern der Moment, in dem zehn Jahre Altlast endlich verschwinden.",
+  "related": ["m365-tenant", "entra-id", "sharepoint-dms", "schatten-it", "iam"],
+  "tool": { "href": "/werkzeuge/m365-migration-kosten", "label": "Was treibt meine M365-Migration?" }
+}

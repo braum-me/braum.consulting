@@ -1,0 +1,10 @@
+{
+  "slug": "ki-agenten",
+  "term": "KI-Agenten",
+  "synonyms": ["AI Agents", "Agentic AI", "Agenten-KI"],
+  "category": "technik",
+  "definition": "KI-Systeme, die nicht nur antworten, sondern Aufgaben in mehreren Schritten selbst erledigen — Tools aufrufen, Daten abfragen, Aktionen ausführen. Der Schritt vom Chatbot zum handelnden Assistenten.",
+  "longForm": "Ein klassischer Chatbot antwortet auf eine Frage. Ein KI-Agent verfolgt ein Ziel: Er plant, ruft die nötigen Werkzeuge auf, prüft Zwischenergebnisse und handelt — etwa ein Onboarding-Agent, der eine Frage im Teams-Chat versteht, die Antwort aus SharePoint und HR-System zieht und gleich das passende Ticket anlegt. Möglich macht das „Tool Use“: Das Sprachmodell bekommt definierte Funktionen an die Hand, zunehmend standardisiert über das Model Context Protocol (MCP). In der Microsoft-Welt baut man solche Agenten in Copilot Studio. Für Unternehmen ist der Hebel groß — aber auch das Governance-Thema: Ein System, das eigenständig handelt, braucht klare Grenzen, geprüfte Datenquellen und Nachvollziehbarkeit. Der pragmatische Einstieg ist nicht der „Universal-Agent“, sondern der eng umrissene Anwendungsfall mit echtem, messbarem Nutzen.",
+  "related": ["copilot", "rag", "ai-governance", "workflow-automatisierung"],
+  "tool": { "href": "/werkzeuge/ki-readiness", "label": "Ist mein Betrieb bereit für KI?" }
+}

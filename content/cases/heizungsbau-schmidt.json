@@ -1,0 +1,39 @@
+{
+  "num": "heizungsbau-schmidt",
+  "title": "Neue Website und Bewerbungs-Funnel für einen Heizungsbauer",
+  "sector": "Heizungsbau-Handwerk",
+  "year": "2025",
+  "duration": "6 Wochen",
+  "field": "marke",
+  "fieldLabel": "Marke & Reichweite",
+  "metric": "Neu",
+  "metricLabel": "Website + Bewerbungs-Funnel",
+  "impact": "Komplett neue, mobil optimierte Website auf vorhandenem Branding — inklusive DSGVO-konformem Bewerbungsformular.",
+  "brief": "Logo und Branding standen — darauf eine komplett neue, mobil optimierte Website, inklusive DSGVO-konformem Bewerbungsformular.",
+  "context": [
+    "Heizungsbau-Betrieb mit vorhandenem Logo und Branding, aber ohne passende Website.",
+    "Auftrag: eine komplett neue Website auf dem bestehenden Branding aufsetzen — klar, mobil, mit sauberem Anfrage- und Bewerbungs-Pfad."
+  ],
+  "approach": [
+    "Neue Website auf WordPress mit Elementor, aufgesetzt auf das vorhandene Branding.",
+    "Service-Bereiche klar sortiert, durchgängig mobil optimiert.",
+    "DSGVO-konformes Bewerbungsformular integriert — Recruiting direkt über die Seite.",
+    "Eine saubere Basis, die sich jederzeit weiter ausbauen lässt."
+  ],
+  "outcome": [
+    "Komplett neue, mobil optimierte Website live.",
+    "DSGVO-konformes Bewerbungsformular — Bewerbungen laufen direkt über die Seite ein.",
+    "Solide Grundlage, die sich weiter ausarbeiten lässt."
+  ],
+  "tech": [
+    "WordPress",
+    "Elementor",
+    "Bewerbungsformular (DSGVO)",
+    "Mobil-Optimierung"
+  ],
+  "serviceSlug": "marke",
+  "anchor": "Handwerk · Neue Website · Bewerbungs-Funnel",
+  "image": "/cases/heizungsbau-schmidt.webp",
+  "anonymized": false,
+  "client": "Heizungsbau Schmidt"
+}

@@ -1,0 +1,41 @@
+{
+  "num": "jonathan-gruen",
+  "title": "Refit einer Bestands-Website: schneller, sauberer, auffindbar",
+  "sector": "Website-Refit · Bestandssite",
+  "year": "2024",
+  "duration": "5 Wochen",
+  "field": "marke",
+  "fieldLabel": "Marke & Reichweite",
+  "metric": "Refit",
+  "metricLabel": "schneller · DSGVO · SEO · mobil",
+  "impact": "Gute Elementor-Bestandswebsite gezielt aufgearbeitet — Performance, DSGVO-Compliance, SEO und mobile Nutzbarkeit.",
+  "brief": "Keine Neuentwicklung, sondern ein gezielter Refit: die bestehende Elementor-Website auf Performance, DSGVO-Compliance, SEO und mobile Responsiveness aufgearbeitet.",
+  "context": [
+    "Bestehende Website auf Elementor-Basis — grundsätzlich gut, aber mit Schwächen bei Performance, DSGVO-Compliance, SEO und mobiler Responsiveness.",
+    "Auftrag: kein Neuaufbau, sondern eine gezielte Aufarbeitung — SEO-technisch besser dastehen und die Seite einfach nutzbarer machen."
+  ],
+  "approach": [
+    "Bestehende Elementor-Site aufgearbeitet statt neu gebaut.",
+    "Performance-Tuning und mobile Responsiveness sauber nachgezogen.",
+    "DSGVO-Compliance und SEO-Basis in Ordnung gebracht.",
+    "Nicht neu bauen, sondern das reparieren, was die Seite ausbremst."
+  ],
+  "outcome": [
+    "Spürbar schnellere Ladezeiten, sauber mobil nutzbar.",
+    "DSGVO-Compliance in Ordnung.",
+    "SEO-technisch besser aufgestellt, regional sichtbarer.",
+    "Insgesamt einfach nutzbarer."
+  ],
+  "tech": [
+    "WordPress",
+    "Elementor",
+    "Performance-Tuning",
+    "DSGVO-Compliance",
+    "SEO"
+  ],
+  "serviceSlug": "marke",
+  "anchor": "Refit · Performance · DSGVO · SEO · mobil",
+  "image": "/cases/jonathan-gruen.webp",
+  "anonymized": false,
+  "client": "Jonathan Grün"
+}

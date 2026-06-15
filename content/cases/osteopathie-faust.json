@@ -1,0 +1,41 @@
+{
+  "num": "osteopathie-faust",
+  "title": "Von 0 auf 100 — Praxis-Website für eine Osteopathin",
+  "sector": "Osteopathie · Praxis",
+  "year": "2024",
+  "duration": "8 Wochen",
+  "field": "marke",
+  "fieldLabel": "Marke & Reichweite",
+  "metric": "~50%",
+  "metricLabel": "der qualifizierten Anfragen, im beobachteten Zeitraum",
+  "impact": "Nach Relaunch kommt im beobachteten Zeitraum rund jede zweite qualifizierte Anfrage an die Praxis über die Website — getragen von regionalem SEO, das überdurchschnittlich gut greift.",
+  "brief": "Die Praxis-Website schlug nach Go-Live spürbar ein: starke Aufrufzahlen, und im beobachteten Zeitraum kommt rund jede zweite qualifizierte Anfrage über die Seite.",
+  "context": [
+    "Osteopathie-Praxis von Franziska Faust — der Web-Auftritt von Grund auf, ausgerichtet auf Sichtbarkeit und Patienten-Anfragen.",
+    "Ziel: eine Website, die klar erklärt, was die Praxis macht, und regional zuverlässig gefunden wird."
+  ],
+  "approach": [
+    "Website von null aufgebaut — ruhig, verständlich, erklärt die Behandlungen klar.",
+    "Regionales SEO konsequent aufgesetzt — und außergewöhnlich gut aufgegangen.",
+    "Termin-Vorbereitung mit Online-Formularen ergänzt: Patienten füllen vorab aus.",
+    "Rund jede zweite qualifizierte Anfrage kommt im beobachteten Zeitraum über die Website."
+  ],
+  "outcome": [
+    "Starke Aufrufzahlen direkt nach Go-Live.",
+    "Rund jede zweite qualifizierte Anfrage kommt im beobachteten Zeitraum über die Website.",
+    "Online-Formulare zur Termin-Vorbereitung — Patienten kommen vorbereitet ins Gespräch.",
+    "Regionales SEO, das überdurchschnittlich gut funktioniert."
+  ],
+  "tech": [
+    "WordPress",
+    "Elementor",
+    "Local SEO",
+    "Termin-Formulare",
+    "Performance-Tuning"
+  ],
+  "serviceSlug": "marke",
+  "anchor": "Praxis · von 0 auf 100 · jede 2. Anfrage über die Website",
+  "image": "/cases/osteopathie-faust.webp",
+  "anonymized": false,
+  "client": "Osteopathie Franziska Faust"
+}

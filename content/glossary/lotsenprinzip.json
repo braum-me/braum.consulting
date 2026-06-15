@@ -1,0 +1,12 @@
+{
+  "slug": "lotsenprinzip",
+  "term": "Lotsenprinzip",
+  "category": "methodik",
+  "definition": "Arbeitsmodell von Braum Consulting: Lagebild · Kurs setzen · Manövrieren · Übergabe. Wie ein Schiffslotse: temporär an Bord für die kritischen Manöver, danach übergibt der Lotse an die eigene Crew.",
+  "longForm": "Das Lotsenprinzip beschreibt den vierstufigen Engagement-Bogen, an dem sich jede Zusammenarbeit ausrichtet. Es unterscheidet sich von klassischer Beratung dadurch, dass am Ende ein laufendes System steht, nicht eine Empfehlung. Und vom Freelancing dadurch, dass der Operator strategische Verantwortung für den Kurs übernimmt, nicht nur Tickets abarbeitet.",
+  "related": [
+    "lagebild",
+    "operator",
+    "uebergabe"
+  ]
+}

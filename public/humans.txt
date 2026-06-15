@@ -1,0 +1,24 @@
+# humanstxt.org
+# Wer steckt hinter dieser Website.
+
+/* TEAM */
+   Operator: Stefan Braum
+   Site:     https://braum.consulting
+   E-Mail:   info@braum.consulting
+   Location: Main-Kinzig-Kreis, Hessen, Deutschland
+   LinkedIn: https://www.linkedin.com/in/stefanbraum
+
+/* THANKS */
+   Designed and built im Main-Kinzig-Kreis, served from Coolify.
+
+/* SITE */
+   Last update:  2026/05
+   Language:     Deutsch
+   Doctype:      HTML5
+   Stack:        Next.js 16, React 19, TypeScript, Tailwind CSS 4,
+                 motion, GSAP, @react-three/fiber, Resend, Umami
+   Hosting:      Coolify (self-hosted) + Cloudflare
+   Fonts:        Akmorn Grotesque, Geist, Geist Mono, Instrument Serif
+                 — alle self-hosted, kein externes CDN für Schriften.
+   Analytics:    Umami (cookieless, self-hosted)
+   IDE:          VS Code

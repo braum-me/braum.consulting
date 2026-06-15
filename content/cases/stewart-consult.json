@@ -1,0 +1,51 @@
+{
+  "num": "stewart-consult",
+  "title": "Marke und zwei Websites für einen ISMS-Auditor",
+  "sector": "ISMS- & ISO-27001-Auditor · DACH",
+  "year": "2025",
+  "duration": "10 Wochen",
+  "field": "marke",
+  "fieldLabel": "Marke & Reichweite",
+  "metric": "2",
+  "metricLabel": "Websites · 1 Marke · NFC-Karte",
+  "impact": "Komplette Marke von null aufgebaut: zwei Websites, NFC-Visitenkarte und ein Content-Konzept, das organischen Traffic bringt.",
+  "featured": true,
+  "brief": "Ein ISMS-Auditor ohne jeden Außenauftritt — am Ende eine eigene Marke, zwei Websites, eine NFC-Visitenkarte und ein Fach-Blog, der verlässlich rankt.",
+  "context": [
+    "Stewart Consult ist Einzelunternehmer — ISMS-Berater und Auditor für ISO 27001, TISAX und verwandte Standards. Fachlich erste Liga, digital aber unsichtbar: kein Logo, keine Website, kein Außenauftritt.",
+    "Der Auftrag war eine Marke von null. Eine Positionierung, die das Kerngeschäft eines Auditors transportiert — Vertrauen — und das eher abstrakte, reise-intensive Auditoren-Leben greifbar macht.",
+    "Dazu ein Auftritt, der Erstkontakte ohne Reibung in einen Termin überführt: vom Handschlag bis zum gebuchten Termin in wenigen Sekunden."
+  ],
+  "approach": [
+    "Markenidentität von null: Logo, CI, Bildsprache und der Claim „Schutz und Vertrauen durch Informationssicherheit“.",
+    "Zwei-Domain-Konzept: stewart-consult.de als inhaltliche Hauptsite (One-Pager mit Services, Über-mich und Blog), stewart-consult.info als schlanke digitale Visitenkarte.",
+    "Physisch-digitale Brücke: gedruckte Visitenkarten mit NFC-Chip und QR-Code — antippen oder scannen öffnet die Site und speichert den Kontakt direkt aufs Handy.",
+    "Content-Konzept plus Fach-Blog zu ISO 27019, DORA, NIS-2 und TISAX VDA 6 — geschrieben für CISOs und ISMS-Teams, ausgerichtet auf reale Compliance-Suchbegriffe.",
+    "Terminbuchung direkt im Kalender eingebunden, DSGVO-konform — vom Klick zum gebuchten Termin ohne Mail-Pingpong.",
+    "Vertrauen ist das Produkt eines Auditors — also haben wir den gesamten Auftritt darauf gebaut, es schon vor dem ersten Gespräch zu transportieren."
+  ],
+  "outcome": [
+    "Vom leeren Blatt zur fertigen Marke: Logo, CI, zwei Websites und Visitenkarten aus einem Guss.",
+    "Der Fach-Blog rankt und bringt verlässlich organischen Traffic — ISO 27019, DORA, NIS-2 und TISAX als Einstiegsthemen.",
+    "Die NFC-Visitenkarte überführt jeden Handschlag direkt in einen gespeicherten Kontakt und einen Website-Besuch.",
+    "Terminbuchung läuft selbsterklärend: Interessenten buchen eigenständig im Kalender, ohne Mail-Schleife.",
+    "Der One-Pager zeigt auf einen Blick, was Stewart Consult macht — die Positionierung sitzt."
+  ],
+  "tech": [
+    "Markenidentität",
+    "Logo & CI",
+    "WordPress",
+    "Elementor Pro",
+    "NFC- & QR-Visitenkarte",
+    "Content & SEO",
+    "Kalender-Booking",
+    "Performance-Tuning"
+  ],
+  "serviceSlug": "marke",
+  "anchor": "ISMS-Auditor · Marke von null · 2 Sites + NFC",
+  "image": "/cases/stewart-consult.webp",
+  "siteShot": "/cases/stewart-consult-site.webp",
+  "anonymized": false,
+  "client": "Stewart Consult",
+  "clientUrl": "https://stewart-consult.de/"
+}

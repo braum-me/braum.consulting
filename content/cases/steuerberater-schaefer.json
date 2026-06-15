@@ -1,0 +1,45 @@
+{
+  "num": "steuerberater-schaefer",
+  "title": "Eigene Kanzlei-Marke und Website von Grund auf",
+  "sector": "Steuerkanzlei · Schlüchtern & Künzell",
+  "year": "2023",
+  "duration": "9 Wochen",
+  "field": "marke",
+  "fieldLabel": "Marke & Reichweite",
+  "metric": "1",
+  "metricLabel": "Platz 1 · Schlüchtern & Künzell",
+  "impact": "Nach Kanzlei-Übernahme und Umbenennung: Marke und Website komplett neu aufgebaut — lokal auf Platz 1 in Schlüchtern und Künzell.",
+  "featured": true,
+  "brief": "Daniel Schäfer übernimmt eine Kanzlei mit uralter Website ohne Branding, benennt sie um — und bekommt Marke und Website von Grund auf neu, lokal sichtbar auf Platz 1.",
+  "context": [
+    "Daniel Schäfer hatte eine Steuerkanzlei übernommen — samt einer uralten Website ganz ohne Branding.",
+    "Mit der Umbenennung auf seine eigene Kanzlei musste alles neu: Marke und Website von Grund auf.",
+    "Ziel war eine lokal stark auffindbare Kanzlei-Site, die Mandanten in der Region zuverlässig erreicht."
+  ],
+  "approach": [
+    "Kanzlei-Marke nach der Umbenennung von null aufgebaut — eigener Auftritt statt geerbtem Alt-Look.",
+    "Website neu auf WordPress mit Elementor: klar, lesbar, vertrauensbildend.",
+    "Local SEO konsequent auf die Standorte Schlüchtern und Künzell ausgerichtet.",
+    "Eine saubere Basis, auf der sich bis heute sehr gut weiterbauen lässt."
+  ],
+  "outcome": [
+    "Platz 1 in der lokalen Suche in Schlüchtern und Künzell — seit dem Start.",
+    "Eigene Kanzlei-Marke statt geerbtem Alt-Auftritt.",
+    "Klare, vertrauensbildende Website auf WordPress-/Elementor-Basis.",
+    "Solide Grundlage, auf der weiter aufgebaut wird."
+  ],
+  "tech": [
+    "WordPress",
+    "Elementor",
+    "Branding",
+    "Local SEO",
+    "Performance-Tuning"
+  ],
+  "serviceSlug": "marke",
+  "anchor": "Steuerkanzlei · Marke neu · Platz 1 lokal",
+  "image": "/cases/steuerberater-schaefer.webp",
+  "siteShot": "/cases/steuerberater-schaefer-site.webp",
+  "anonymized": false,
+  "client": "Steuerberater Daniel Schäfer",
+  "clientUrl": "https://www.steuerberater-danielschaefer.de/"
+}

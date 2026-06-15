@@ -1,0 +1,15 @@
+{
+  "slug": "microsoft-defender",
+  "term": "Microsoft Defender",
+  "synonyms": [
+    "Defender for Endpoint",
+    "Defender for Office 365"
+  ],
+  "category": "technik",
+  "definition": "Microsofts Sicherheits-Suite im M365-Tenant — Endgeräte-Schutz, E-Mail-Filter, Angriffserkennung. In den gängigen Business-Lizenzen oft schon enthalten, aber nur wirksam, wenn die Richtlinien sauber gesetzt und überwacht werden.",
+  "related": [
+    "m365-tenant",
+    "conditional-access",
+    "zero-trust"
+  ]
+}

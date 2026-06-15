@@ -1,0 +1,15 @@
+{
+  "slug": "passkey",
+  "term": "Passkey",
+  "synonyms": [
+    "passwortlos",
+    "passwordless"
+  ],
+  "category": "technik",
+  "definition": "Anmeldung ohne Passwort. Statt eines Kennworts liegt ein kryptographischer Schlüssel auf dem Gerät, freigegeben per Fingerabdruck, Gesicht oder PIN. Phishing-resistent, weil es nichts gibt, das man verraten oder abfangen könnte.",
+  "related": [
+    "mfa",
+    "entra-id"
+  ],
+  "tool": { "href": "/werkzeuge/passwort-check", "label": "Wie sicher ist dein Passwort?" }
+}

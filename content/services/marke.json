@@ -1,0 +1,74 @@
+{
+  "slug": "marke",
+  "num": "01",
+  "title": "Marke, Website & Reichweite",
+  "short": "Website, Marke und SEO, die Anfragen liefern.",
+  "bullets": [
+    "Digitales Marketing & Web",
+    "SEO & Content",
+    "Brand & Positionierung"
+  ],
+  "result": "+ 120 %",
+  "resultLabel": "mehr Anfragen nach Relaunch",
+  "lead": "Brand, Website, Lead-Funnel, SEO und Content aus einer Hand. Marken-Sites, die gefunden werden und qualifizierte Anfragen liefern — statt Award-Trophäen einzusammeln.",
+  "problem": [
+    "Die Website ist Stand 2018. Bewerber finden den Stellen-Bereich nicht, Leads tropfen auf null.",
+    "Jeder Textwechsel ist ein Agentur-Ticket. Time-to-Publish in Wochen."
+  ],
+  "outcomes": [
+    "Eine Website, die in Rekordzeit lädt und in der Google-Suche tatsächlich gefunden wird.",
+    "Lead-Funnel mit Tracking — du siehst, welche Quelle welche Leads liefert.",
+    "Headless-CMS, dein Marketing pflegt selbst, ohne Entwickler-Ticket."
+  ],
+  "scope": [
+    "Marken- und Corporate-Website",
+    "Lead-Funnel mit Tracking",
+    "SEO-Setup + redaktioneller Kalender",
+    "Karriere-Bereich + Bewerbungs-Workflow",
+    "Migration aus WordPress / Typo3",
+    "Drei Monate Wartung inklusive"
+  ],
+  "tags": [
+    "Brand",
+    "Webdesign",
+    "Lead-Funnel",
+    "SEO",
+    "Content"
+  ],
+  "caseRefs": [
+    {
+      "num": "stewart-consult",
+      "title": "Doppel-Website für ISMS-Beratung",
+      "metric": "2",
+      "metricLabel": "Sites · 1 Brand-Dach"
+    },
+    {
+      "num": "wolfswerk",
+      "title": "Redesign für Industrie- und Mobile-Hydraulik",
+      "metric": "> 90",
+      "metricLabel": "Lighthouse · mobile"
+    }
+  ],
+  "pricing": "Auf Anfrage · Festpreis nach Lagebild",
+  "duration": "6 – 14 Wochen",
+  "metaDesc": "Webdesign, Marke und SEO für Mittelstand und Industrie: Website, die gefunden wird und Anfragen liefert. WordPress oder Next.js, Festpreis nach Lagebild.",
+  "faqs": [
+    {
+      "q": "Was, wenn wir schon eine Website haben?",
+      "a": "Erst Check: Stack, Performance, SEO, Pflegbarkeit. Trägt die Basis, baue ich darauf weiter. Trägt sie nicht, machen wir einen sauberen Cut auf neue Tech — inklusive SEO-Übernahme mit 301-Redirects. Kein Ranking-Verlust."
+    },
+    {
+      "q": "Macht ihr auch das Texten?",
+      "a": "Ja. Texte sind im Festpreis drin. Hast du eine Marketing-Person, arbeiten wir zusammen. Hast du keine, schreibe ich die Erstversion und du redigierst."
+    },
+    {
+      "q": "Welches CMS, welche Tech?",
+      "a": "Hängt von Umfang und Pflege ab. Kleine bis mittlere Seite, dein Team pflegt im vertrauten Backend → WordPress. Anspruchsvoller Auftritt mit Performance- und Brand-Fokus → Next.js mit Sanity (Standard), Astro (content-stark) oder Payload (komplexe Datenmodelle). Was zu dir passt, entscheiden wir im Lagebild."
+    },
+    {
+      "q": "Wie ist das mit SEO?",
+      "a": "Drin im Festpreis: Setup, Content-Briefings, redaktioneller Kalender für sechs Monate. Dauer-Linkbuilding nicht — das macht dein Marketing oder eine spezialisierte SEO-Agentur."
+    }
+  ],
+  "iconName": "Globe"
+}

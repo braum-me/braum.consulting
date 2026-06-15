@@ -1,0 +1,42 @@
+{
+  "num": "outline-knowledge-base",
+  "title": "Self-Hosted Wissensbasis als Copilot-Foundation",
+  "sector": "Industrie-Dienstleister · Mittelstand",
+  "year": "2025",
+  "duration": "14 Wochen",
+  "field": "m365",
+  "fieldLabel": "M365 · Governance",
+  "metric": "Self-Host",
+  "metricLabel": "Open-Source · ISO + NIS2",
+  "impact": "Strukturierte Wissensbasis als Copilot-Foundation — self-hosted, drei Integrationsebenen, auditfähig.",
+  "featured": false,
+  "brief": "Ein Open-Source-Wiki (self-hosted) als Wissensbasis, angebunden via Microsoft Graph Connector, MCP-Server und spezialisiertem Copilot-Agent.",
+  "context": [
+    "Industrie-Dienstleister im Mittelstand, M365-Stack mit Copilot. Copilot lieferte allgemeine Floskeln und veraltete SharePoint-Fundstücke. OneNote, Confluence, Loop und Notion passten nicht.",
+    "Aufgabe: eine strukturierte Wissensbasis als KI-Foundation aufbauen, die compliance-fähig (ISO 27001, NIS2) ist."
+  ],
+  "approach": [
+    "Ein Open-Source-Wiki (self-hosted) als Wissens-Foundation gewählt, als Docker-Container betrieben.",
+    "Microsoft Graph Connector speist die Wiki-Inhalte in den M365-Search-Index.",
+    "MCP-Server vor der Wiki-API erlaubt Copilot-Agenten gezielte Queries auf die Wissensbasis.",
+    "Spezialisierter Copilot-Agent in Copilot Studio für Onboarding, Schnellsuche und Übersichten.",
+    "Compliance-Profil ISO 27001 / NIS2 durch Versionshistorie, Audit-Logs und granulare Berechtigungen."
+  ],
+  "outcome": [
+    "Copilot zieht aus einer gepflegten, strukturierten Wissensbasis statt aus veralteten Fundstücken.",
+    "Drei Integrationsebenen aktiv: Graph Connector, MCP-Server und spezialisierter Agent.",
+    "ISO- und NIS2-auditfähig mit dokumentierten Berechtigungen und Audit-Logs."
+  ],
+  "tech": [
+    "Open-Source-Wiki (self-hosted)",
+    "Docker",
+    "Microsoft Graph Connector",
+    "MCP",
+    "Copilot Studio",
+    "M365 Search"
+  ],
+  "serviceSlug": "m365",
+  "anchor": "Industrie-Dienstleister · Self-Hosted Knowledge Base + Copilot",
+  "image": "/cases/outline-knowledge-base.webp",
+  "anonymized": true
+}

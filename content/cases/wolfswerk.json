@@ -1,0 +1,49 @@
+{
+  "num": "wolfswerk",
+  "title": "Die Website, mit der alles anfing",
+  "sector": "Kfz-Werkstatt · Restauration & Aufbereitung · Hessen",
+  "year": "2024",
+  "duration": "8 Wochen",
+  "field": "marke",
+  "fieldLabel": "Marke & Reichweite",
+  "metric": "Lokal",
+  "metricLabel": "in relevanten Suchanfragen bis auf Spitzenplätze sichtbar",
+  "impact": "Wachsende Kfz-Werkstatt mit klarer Positionierung, visuellem Portfolio und lokaler Sichtbarkeit bis auf Spitzenpositionen — die Website, mit der Braum Consulting begann.",
+  "featured": true,
+  "brief": "Eine wachsende Kfz-Werkstatt mit Schwerpunkt Restauration und Fahrzeug-Aufbereitung — neu aufgesetzt mit klarer Positionierung, SEO-Foundation und einem visuellen Portfolio für ihre Sonder-Projekte.",
+  "context": [
+    "WolfsWerk ist eine Kfz-Werkstatt, die wächst und sich geschärft hat: stark in Restauration und Aufbereitung, besonders bei besonderen Fahrzeugen und Oldtimern — und spezialisiert auf Nischen wie Hydraulik für Hubstützanlagen von Wohnmobilen.",
+    "Es war zugleich das erste Website-Projekt überhaupt — der Auslöser für Braum Consulting. Die allererste WolfsWerk-Seite hatte ich noch mit den simpelsten WordPress-Mitteln und vielen Plugins gebaut. Inzwischen wurde sie einmal richtig gezogen.",
+    "Der Auftrag: eine Seite, die zeigt, was die Werkstatt wirklich kann — visuell, auffindbar und als Schaubild ihrer selbst."
+  ],
+  "approach": [
+    "Komplett neu aufgesetzt mit allem Gelernten: sauberer Build, performant, mobil-first.",
+    "Klare Positionierung geschärft — was die Werkstatt ausmacht, statt Bauchladen: Restauration, Aufbereitung, Sonder-Projekte.",
+    "SEO-Grundlage plus Google-Business-Eintrag, regional optimiert — sichtbar bis in die Spitzenpositionen im lokalen Umkreis.",
+    "Visuelles Portfolio aufgebaut, in dem besondere Umbauten und Projekte mit vielen Bildern und mittlerweile Videos zur Geltung kommen.",
+    "Auf das Social-Media des Kunden abgestimmt, das sehr gut läuft — Website und Kanäle greifen ineinander.",
+    "Aus dem ersten Website-Versuch wurde ein Schaubild seiner selbst — und der Startpunkt für alles, was danach kam."
+  ],
+  "outcome": [
+    "Lokal in relevanten Suchanfragen bis auf Spitzenpositionen sichtbar — die Seite bringt verlässlich Anfragen.",
+    "Ein visuelles Portfolio, das Restaurationen und Sonder-Projekte sichtbar macht — viel Bild, zunehmend Video.",
+    "Website und Social Media greifen ineinander und verstärken sich gegenseitig.",
+    "Klare Positionierung: auf einen Blick erkennbar, wofür WolfsWerk steht.",
+    "Bestandskunde der ersten Stunde — die Zusammenarbeit läuft weiter."
+  ],
+  "tech": [
+    "WordPress",
+    "Elementor",
+    "Local SEO",
+    "Google Business",
+    "Bild- & Video-Portfolio",
+    "Performance-Tuning"
+  ],
+  "serviceSlug": "marke",
+  "anchor": "Kfz-Werkstatt · Restauration · lokal bis auf Spitzenplätze sichtbar",
+  "image": "/cases/wolfswerk.webp",
+  "siteShot": "/cases/wolfswerk-site.webp",
+  "anonymized": false,
+  "client": "WolfsWerk",
+  "clientUrl": "https://wolfswerk.net/"
+}

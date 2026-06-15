@@ -1,0 +1,43 @@
+{
+  "num": "power-platform-coe",
+  "title": "Power Platform managebar und ISO-konform gemacht",
+  "sector": "Industrie-Dienstleister · Mittelstand",
+  "year": "2024",
+  "duration": "8 Wochen",
+  "field": "ai",
+  "fieldLabel": "AI & Automatisierung",
+  "metric": "ISO/TISAX",
+  "metricLabel": "auditfähig dokumentiert",
+  "impact": "Aus Schatten-IT eine beherrschbare Power-Platform-Landschaft mit CI/CD — auditfähig entlang ISO-27001- und TISAX-Anforderungen dokumentiert.",
+  "featured": false,
+  "brief": "Aufbau eines Power-Platform-Center-of-Excellence: Schatten-IT in eine managebare Landschaft überführt, entlang ISO-27001- und TISAX-Anforderungen auditfähig dokumentiert — mit CI/CD, Citizen-Developer-Enablement und Code-Review-Standards für die Übergabe an Pro-Code.",
+  "context": [
+    "Industrie-Dienstleister im Mittelstand. Schatten-IT durch Excel-Makros und Einzelautomatisierungen wuchs schneller als die IT skalieren konnte.",
+    "Fachbereiche wollten schneller liefern, das Risiko unkontrollierter Citizen-Development ohne Governance und ohne Compliance-Nachweis war hoch."
+  ],
+  "approach": [
+    "Aufbau eines Power-Platform-CoE mit CI/CD: saubere Umgebungs-Trennung und kontrolliertes Deployment statt Direktbau gegen Produktiv.",
+    "Connector-Governance, Lizenz-Modell und Datenschutz-Klärung als Foundation.",
+    "Compliance konsequent mitgedacht — ISO 27001 und TISAX als Leitplanken in Governance und Prozessen.",
+    "Citizen-Developer-Enablement mit Schulungen, Templates und Code-Review-Standards für komplexe Flows.",
+    "Verzahnung mit Pro-Code-Engineering für saubere Übergaben."
+  ],
+  "outcome": [
+    "Power Platform managebar gemacht: CI/CD als Standard, keine Direktentwicklung gegen Produktiv.",
+    "Auditfähig entlang ISO-27001- und TISAX-Anforderungen dokumentiert — mit den nötigen Governance-Artefakten.",
+    "Citizen Developer geschult, Templates und Code-Review-Standards aktiv.",
+    "Übergabe zwischen Citizen Developer und Pro-Code definiert und dokumentiert."
+  ],
+  "tech": [
+    "Power Platform",
+    "Power Automate",
+    "Power Apps",
+    "CI/CD-Pipeline",
+    "CoE-Toolkit",
+    "ISO 27001 · TISAX"
+  ],
+  "serviceSlug": "ai",
+  "anchor": "Industrie-Dienstleister · Power Platform managebar + ISO/TISAX-konform",
+  "image": "/cases/power-platform-coe.webp",
+  "anonymized": true
+}

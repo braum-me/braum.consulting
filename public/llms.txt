@@ -1,0 +1,83 @@
+# Braum Consulting
+
+> Digitaler Lotse für Mittelstand und Industrie. Vier Felder, eine Hand:
+> Marke, Microsoft 365 oder Google Workspace, KI & Automatisierung,
+> digitale Strategie. Operator-Praxis von Stefan Braum, Sitz im
+> Main-Kinzig-Kreis, Hessen.
+
+Stefan Braum führt Engagements nach dem Lotsenprinzip durch: Lagebild,
+Kurs setzen, Manövrieren, Übergabe. Ziel ist nicht, dauerhaft gebraucht
+zu werden — Ziel ist, dass dein Team danach sicher selbst weiterarbeitet.
+
+Direkter Draht, kein Berater-Apparat, kein Folien-Theater. Festpreis nach
+Lagebild, keine Stundensätze.
+
+## Leistungen
+
+- [Marke, Website & Reichweite](https://braum.consulting/leistungen/marke):
+  Brand, Webdesign (WordPress oder Next.js), Lead-Funnel, SEO/GEO/LLMO,
+  Content. Self-managed (WP), Managed oder EU-souveränes Hosting auf
+  Hetzner/OVH/IONOS.
+- [State-of-the-Art IT & Cloud](https://braum.consulting/leistungen/m365):
+  Moderne Cloud-Arbeitsumgebung — Microsoft 365 oder Google Workspace.
+  Identity (Entra ID/Google Identity), Intune-MDM, SharePoint als DMS,
+  Teams Rooms, Defender, EU Data Boundary. Foundation für AI.
+- [KI & Automatisierung](https://braum.consulting/leistungen/ai):
+  Copilot, ChatGPT Enterprise, Claude for Work, n8n, Power Automate.
+  Use-Case-Auswahl, Governance, EU-Region oder on-prem-Llama. Keine
+  Pilotruinen.
+- [Digitale Transformation, Change & Security](https://braum.consulting/leistungen/strategie):
+  IT-Roadmap, Vendor-Selection, M&A-IT-Due-Diligence, NIS-2, ISO 27001,
+  TISAX, Change-Management. Diskret, NDA vor dem zweiten Termin.
+
+## Methodik
+
+- [Lotsenprinzip](https://braum.consulting/methodik): Vierstufiges
+  Engagement-Modell — Lagebild, Kurs setzen, Manövrieren, Übergabe.
+- [Lexikon](https://braum.consulting/lexikon): Definitionen zentraler
+  Begriffe (Lagebild, Operator, M365-Tenant, NIS-2, TISAX, AI-Governance,
+  RAG, Conditional Access u.a.).
+
+## Portfolio
+
+- [Portfolio-Übersicht](https://braum.consulting/cases): Engagement-Board
+  mit aktuellen Mandaten und dokumentierten Cases aus Marke, M365, AI und
+  Strategie. Anonymisiert, wo das Mandat es verlangt.
+
+## Notizen
+
+- [Blog](https://braum.consulting/blog): Long-Form aus laufenden
+  Engagements und Praxisreflexionen. Eigene Posts plus kuratierte
+  Cross-Links nach stefanbraum.de.
+
+## Person
+
+- [Über Stefan](https://braum.consulting/ueber): Werdegang, Stack
+  (sechs Säulen), Prinzipien.
+- [Kontakt](https://braum.consulting/kontakt): Direkter Draht, kein
+  Service-Desk-Ticket.
+
+## Sprache und Konventionen
+
+- „Operator" statt „Berater" — am Ende steht ein laufendes System, keine
+  Folien.
+- „Lagebild" als Einstieg in jedes Engagement — 30 Minuten,
+  ohne Sales-Pitch, ohne Tool-Verkauf.
+- Du-Form, immer. Sentence-Case-Headlines, nie Title-Case.
+- Festpreis nach Lagebild — keine Stundensätze, keine Überraschungen.
+- Diskretion: Mandanten werden nur mit ausdrücklicher Freigabe genannt.
+  NDA vor dem zweiten Substanz-Termin bei Strategie-Mandaten.
+
+## Maschinen-lesbare Quellen
+
+- [Sitemap (XML)](https://braum.consulting/sitemap.xml)
+- [HTML-Sitemap](https://braum.consulting/sitemap-html)
+- [humans.txt](https://braum.consulting/humans.txt)
+- [security.txt](https://braum.consulting/.well-known/security.txt)
+
+## Kontakt
+
+- E-Mail: info@braum.consulting
+- LinkedIn: https://www.linkedin.com/in/stefanbraum
+- Sitz: Main-Kinzig-Kreis, Hessen, Deutschland
+- Aufsichtsbehörde Datenschutz: HBDI Wiesbaden

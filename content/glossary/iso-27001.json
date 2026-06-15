@@ -1,0 +1,14 @@
+{
+  "slug": "iso-27001",
+  "term": "ISO 27001",
+  "synonyms": ["ISO/IEC 27001"],
+  "category": "recht",
+  "definition": "Internationaler Standard für Information-Security-Management-Systeme (ISMS). Zertifizierungspflichtig für viele Industrie-Kunden, B2B-SaaS und kritische Infrastruktur.",
+  "longForm": "ISO 27001 zertifiziert kein einzelnes Tool, sondern ein Management-System: den Prozess, mit dem ein Unternehmen Informationsrisiken erkennt, bewertet und behandelt. Kern ist die Risikobehandlung mit dem Maßnahmenkatalog aus Anhang A (in der Fassung 2022 sind das 93 Controls in vier Themengruppen). Für den Mittelstand ist die Zertifizierung selten Selbstzweck — sie kommt meist über Kundenanforderungen, Ausschreibungen oder als Beleg für NIS2-Mindestmaßnahmen ins Haus. Der typische Fehler: mit dem Zertifikat als Ziel zu starten. Sinnvoller ist, zuerst ein schlankes ISMS aufzubauen, das zur tatsächlichen Lage passt, und die Zertifizierung als Konsequenz mitzunehmen. Aufwand: planbar in Phasen, kein Dauer-Projekt — wenn Scope und Anwendbarkeit (Statement of Applicability) sauber abgegrenzt sind.",
+  "related": ["isms", "nis2", "tisax", "bcm"],
+  "source": {
+    "label": "ISO · 27001",
+    "url": "https://www.iso.org/standard/27001"
+  },
+  "tool": { "href": "/werkzeuge/iso-27001-readiness", "label": "Wie weit ist mein ISMS?" }
+}

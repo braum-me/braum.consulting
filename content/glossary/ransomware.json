@@ -1,0 +1,14 @@
+{
+  "slug": "ransomware",
+  "term": "Ransomware",
+  "synonyms": ["Verschlüsselungstrojaner", "Erpressungssoftware"],
+  "category": "technik",
+  "definition": "Schadsoftware, die Daten verschlüsselt und Lösegeld für die Freigabe fordert. Heute meist als „doppelte Erpressung“: Die Daten werden vor dem Verschlüsseln gestohlen und mit Veröffentlichung gedroht.",
+  "longForm": "Ransomware ist für den Mittelstand die wahrscheinlichste schwere Cyber-Krise. Der typische Ablauf: Einbruch über Phishing oder ein offenes Remote-Zugang, dann tagelange unauffällige Ausbreitung, Abfluss sensibler Daten, und erst am Ende die sichtbare Verschlüsselung mit Lösegeldforderung. „Double Extortion“ heißt: Selbst wer sauber zurücksichern kann, steht unter Druck, weil mit Veröffentlichung der gestohlenen Daten gedroht wird. Lösegeld zahlen ist keine verlässliche Lösung — und kann rechtlich heikel sein. Wirksam ist Vorbeugung in Schichten: MFA überall, schnelles Patchen, Netzsegmentierung, Least Privilege, Awareness gegen Phishing — und ein getestetes, vom Netz getrenntes Backup (3-2-1) plus ein geübter Wiederanlaufplan. Die entscheidende Frage im Ernstfall ist nicht „Zahlen wir?“, sondern „Wie schnell sind wir wieder arbeitsfähig?“",
+  "related": ["phishing", "backup-321", "bcm", "mfa", "zero-trust"],
+  "tool": { "href": "/werkzeuge/cyber-schaden", "label": "Was kostet ein Tag Stillstand?" },
+  "source": {
+    "label": "BSI · Ransomware",
+    "url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Ransomware/ransomware_node.html"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "num": "m365-zero-trust-identity",
+  "title": "Single-Identity-Architektur mit Zero-Trust-Policy-Layer",
+  "sector": "Maschinenbau · Mittelstand · mehrere Standorte",
+  "year": "2024",
+  "duration": "16 Wochen",
+  "field": "m365",
+  "fieldLabel": "M365 · Governance",
+  "metric": "1 ID",
+  "metricLabel": "standortübergreifend",
+  "impact": "Lokale ADs konsolidiert auf eine zentrale Identity, Zero Trust durchgezogen statt nur auf Papier.",
+  "featured": false,
+  "brief": "Konsolidierung lokaler Active Directories auf Microsoft Entra ID mit Conditional Access als zentralem Policy-Layer.",
+  "context": [
+    "Maschinenbau-Mittelständler mit mehreren Standorten. Lokale Active Directories pro Standort, fragmentiertes MFA, kein einheitliches Conditional Access.",
+    "Zero Trust auf Papier, in der Realität fragmentiert. Aufgabe: eine zentrale Identity-Architektur, die Standort-Silos auflöst."
+  ],
+  "approach": [
+    "Single-Identity-Architektur auf Microsoft Entra ID als Zielbild.",
+    "Conditional Access als zentrales Policy-Layer, MFA flächendeckend, SSO für Kern-Anwendungen.",
+    "Identity-Lifecycle-Modell mit klarer Owner-Zuweisung pro Identity-Typ.",
+    "Migrations- und Cutover-Plan über alle Standorte mit Co-Existence-Phase."
+  ],
+  "outcome": [
+    "Eine zentrale Identity über Standorte, Systeme und Grenzen hinweg.",
+    "Conditional Access greift einheitlich, MFA überall durchgesetzt.",
+    "Lifecycle-Prozesse mit dokumentierten Ownern, auditierbar."
+  ],
+  "tech": [
+    "Microsoft Entra ID",
+    "Conditional Access",
+    "MFA",
+    "SSO",
+    "Identity Lifecycle"
+  ],
+  "serviceSlug": "m365",
+  "anchor": "Maschinenbau · Single Identity + Zero Trust",
+  "image": "/cases/m365-zero-trust-identity.webp",
+  "anonymized": true
+}

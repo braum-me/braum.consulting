@@ -1,0 +1,13 @@
+{
+  "slug": "avv",
+  "term": "AVV",
+  "synonyms": [
+    "Auftragsverarbeitungs-Vertrag",
+    "DPA"
+  ],
+  "category": "recht",
+  "definition": "Vertraglich geregelte Auftragsverarbeitung gemäß Art. 28 DSGVO. Pflicht bei jedem Drittanbieter, der personenbezogene Daten im Auftrag verarbeitet — Hoster, Analytics, Mail-Versand.",
+  "related": [
+    "dsgvo"
+  ]
+}

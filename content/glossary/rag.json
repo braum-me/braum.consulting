@@ -1,0 +1,11 @@
+{
+  "slug": "rag",
+  "term": "RAG",
+  "synonyms": [
+    "Retrieval-Augmented Generation"
+  ],
+  "category": "technik",
+  "definition": "Architektur, bei der ein LLM zur Antwort-Generierung auf eine externe Wissensbasis zugreift (z.B. Firmen-Dokumente). Reduziert Halluzinationen, erlaubt aktuelle Daten ohne Fine-Tuning.",
+  "longForm": "RAG löst das Kernproblem generativer KI im Unternehmen: Ein Sprachmodell weiß nichts über deine Firma und neigt dazu, Lücken überzeugend zu erfinden. Statt das Modell teuer auf Firmendaten nachzutrainieren, stellt RAG ihm zur Laufzeit die relevanten Dokumente zur Seite — es sucht erst in einer Wissensbasis (ein Index über Dokumente, Wikis, Datenbanken), reicht die Treffer als Kontext mit und lässt das Modell daraus antworten. Die Vorteile: aktuelle Daten ohne Re-Training, nachvollziehbare Quellen und deutlich weniger Halluzinationen. Microsoft Copilot ist im Kern ein RAG-System über deinen Microsoft-Graph — was zugleich erklärt, warum Datenqualität und Berechtigungen so entscheidend sind: RAG ist nur so gut wie die Wissensbasis, aus der es zieht. Müll rein, Müll raus — nur diesmal eloquent formuliert.",
+  "related": ["copilot", "ki-agenten", "ai-governance"]
+}

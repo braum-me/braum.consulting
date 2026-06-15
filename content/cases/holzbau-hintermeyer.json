@@ -1,0 +1,39 @@
+{
+  "num": "holzbau-hintermeyer",
+  "title": "Komplett-Paket für eine Holzbau-Neugründung",
+  "sector": "Holzbau-Handwerk · Neugründung",
+  "year": "2024",
+  "duration": "7 Wochen",
+  "field": "marke",
+  "fieldLabel": "Marke & Reichweite",
+  "metric": "3-in-1",
+  "metricLabel": "Web · Logo · Print",
+  "impact": "Neugründung mit allem aus einer Hand: Logo, Branding, Website und Visitenkarte.",
+  "brief": "Eine Holzbau-Neugründung als Einzelunternehmen bekommt das komplette Startpaket — Logo, Branding, Website und Visitenkarte aus einer Hand.",
+  "context": [
+    "Holzbau-Handwerk als Neugründung, Einzelunternehmen — Start bei null, ohne jeden Auftritt.",
+    "Auftrag: das komplette Startpaket aus einer Hand — Logo, Branding, Website und Visitenkarte."
+  ],
+  "approach": [
+    "Logo und Branding von Grund auf entwickelt, abgestimmt aufs Handwerk.",
+    "Website auf WordPress mit Elementor — klare Service-Übersicht und Galerie.",
+    "Visitenkarten-Layout aus derselben Brand-Identity.",
+    "Ein Komplett-Start aus einer Hand — vom Logo bis zur Visitenkarte alles aus einem Guss."
+  ],
+  "outcome": [
+    "Einheitlicher Auftritt vom Logo über die Website bis zur Visitenkarte.",
+    "Website live mit Service-Übersicht und Galerie.",
+    "Sauberer Start in den regionalen Wettbewerb — alles aus einem Guss."
+  ],
+  "tech": [
+    "WordPress",
+    "Elementor",
+    "Logo & Branding",
+    "Print-Design"
+  ],
+  "serviceSlug": "marke",
+  "anchor": "Handwerk · Neugründung · Web + Logo + Print",
+  "image": "/cases/holzbau-hintermeyer.webp",
+  "anonymized": false,
+  "client": "Holzbau Hintermeyer"
+}
