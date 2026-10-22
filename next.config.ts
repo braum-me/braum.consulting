@@ -101,8 +101,9 @@ const config: NextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [
+      // Nur der Apex-Host liefert OG-Bilder (Feed-Quelle); kein Wildcard,
+      // damit kein Subdomain-Takeover/SSRF-Pfad über den Image-Optimizer entsteht.
       { protocol: 'https', hostname: 'stefanbraum.de' },
-      { protocol: 'https', hostname: '**.stefanbraum.de' },
     ],
   },
   // Dev-Origins kommen aus ENV (kommagetrennt), damit lokale VM-IPs nicht
