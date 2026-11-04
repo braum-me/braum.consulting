@@ -1,0 +1,14 @@
+{
+  "slug": "backup-321",
+  "term": "3-2-1-Backup",
+  "synonyms": [
+    "Backup-Strategie",
+    "3-2-1-Regel"
+  ],
+  "category": "technik",
+  "definition": "Faustregel für sichere Datensicherung: drei Kopien, auf zwei verschiedenen Medien, eine davon außer Haus. Wichtig auch im Cloud-Zeitalter — Microsoft sichert die Verfügbarkeit, nicht deine Daten gegen versehentliches oder böswilliges Löschen.",
+  "related": [
+    "m365-tenant",
+    "microsoft-defender"
+  ]
+}

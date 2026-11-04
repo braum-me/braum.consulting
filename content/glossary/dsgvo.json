@@ -1,0 +1,12 @@
+{
+  "slug": "dsgvo",
+  "term": "DSGVO",
+  "synonyms": [
+    "GDPR"
+  ],
+  "category": "recht",
+  "definition": "Datenschutz-Grundverordnung der EU. Regelt Verarbeitung personenbezogener Daten. Bei Site-Betrieb relevant für Cookie-Consent, Auftragsverarbeitungs-Verträge und Datentransfer in Drittländer.",
+  "longForm": "Die DSGVO regelt seit 2018 EU-weit, wie personenbezogene Daten verarbeitet werden dürfen — und sie ist für jeden Mittelständler Alltag, nicht nur für Konzerne. Kernprinzipien sind Zweckbindung, Datenminimierung und Rechenschaftspflicht: Daten nur für klar definierte Zwecke erheben, nur so viel wie nötig, und belegen können, dass man es richtig macht. Praktisch heißt das: ein Verarbeitungsverzeichnis führen, mit jedem Dienstleister (Cloud, Newsletter, Analytics) einen Auftragsverarbeitungs-Vertrag schließen, Betroffenenrechte wie Auskunft und Löschung bedienen können, und Datentransfers in Drittländer wie die USA sauber absichern. Mit KI bekommt das eine neue Dimension — wer Kundendaten in ein KI-Tool gibt, verarbeitet sie, mit allen Pflichten. Die DSGVO ist dabei selten der Showstopper, als der sie gefürchtet wird: Mit klaren Verträgen, EU-Datenregion und etwas Dokumentation ist das meiste beherrschbar.",
+  "related": ["avv", "ai-governance", "nis2"],
+  "tool": { "href": "/werkzeuge/ki-dsgvo-check", "label": "Darf ich dieses KI-Tool so nutzen?" }
+}

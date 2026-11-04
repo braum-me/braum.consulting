@@ -1,0 +1,20 @@
+[
+  {
+    "project": "Markenwebsite",
+    "client": "Finanzbranche",
+    "state": "scoping",
+    "detail": "onboarding"
+  },
+  {
+    "project": "Markenwebsite",
+    "client": "Verein & Community",
+    "state": "active",
+    "detail": "ongoing"
+  },
+  {
+    "project": "Digitalisierung",
+    "client": "Dienstleistungssektor",
+    "state": "wrapping",
+    "detail": "final"
+  }
+]

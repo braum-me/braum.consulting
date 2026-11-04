@@ -1,0 +1,14 @@
+{
+  "slug": "nis2",
+  "term": "NIS2",
+  "synonyms": ["NIS-2-Richtlinie", "NIS2UmsuCG"],
+  "category": "recht",
+  "definition": "EU-Richtlinie zur Cybersicherheit (Network and Information Security 2). Betrifft seit 2024 deutlich mehr Branchen als Vorgänger NIS1 — auch Mittelständler ab definierten Schwellwerten.",
+  "longForm": "NIS2 weitet die EU-Cybersicherheitspflichten massiv aus: Statt weniger Betreiber kritischer Infrastruktur fallen jetzt 18 Sektoren darunter — von Energie und Transport über Maschinenbau und Lebensmittel bis zu digitalen Diensten. Faustregel für die Betroffenheit: mindestens 50 Mitarbeitende oder mehr als 10 Mio. € Jahresumsatz in einem der gelisteten Sektoren. Wer betroffen ist, muss Risikomanagement, Meldepflichten bei Vorfällen, Lieferketten-Sicherheit und Business Continuity nachweisen — und die Geschäftsführung haftet persönlich. Die deutsche Umsetzung (NIS2UmsuCG) hat sich verzögert, die Pflichten kommen aber. Praktisch heißt das: Betroffenheit prüfen, Lücken zur eigenen Lage aufnehmen, dann priorisiert schließen — kein Zertifizierungs-Marathon, sondern ein belegbares Mindestniveau.",
+  "related": ["iso-27001", "isms", "kritis", "zero-trust", "bcm"],
+  "source": {
+    "label": "BSI · NIS-2",
+    "url": "https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/nis-2-regulierte-unternehmen_node.html"
+  },
+  "tool": { "href": "/werkzeuge/nis2-betroffenheit", "label": "Bin ich von NIS2 betroffen?" }
+}

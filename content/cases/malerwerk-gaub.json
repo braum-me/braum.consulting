@@ -1,0 +1,39 @@
+{
+  "num": "malerwerk-gaub",
+  "title": "Mutige Dark-Mode-Website für einen Malerbetrieb",
+  "sector": "Maler-Handwerk",
+  "year": "2024",
+  "duration": "6 Wochen",
+  "field": "marke",
+  "fieldLabel": "Marke & Reichweite",
+  "metric": "Dark Mode",
+  "metricLabel": "Vorher/Nachher-Portfolio",
+  "impact": "Dunkle, mutige Website mit türkisem Akzent — Portfolio und Vorher/Nachher-Vergleiche im Mittelpunkt.",
+  "brief": "Branding und Logo standen schon — die Website baute darauf auf: dunkel, mutig, türkiser Akzent und ein Portfolio voller Vorher/Nachher-Vergleiche.",
+  "context": [
+    "Malerbetrieb mit bereits vorhandenem Branding und Logo — bewusst untypisch fürs Gewerk: nicht maler-weiß, sondern dunkel. Selbst das Firmenauto ist schwarz statt weiß.",
+    "Was fehlte, war die Website. Auftrag: darauf aufsetzen und den mutigen, modernen Ton in einen digitalen Auftritt übersetzen."
+  ],
+  "approach": [
+    "Website im Dark Mode aufgesetzt — passend zum vorgegebenen, ungewöhnlich mutigen Branding mit türkisem Akzent.",
+    "Portfolio in den Mittelpunkt gestellt: viele Vorher/Nachher-Vergleiche, die die Arbeit unmittelbar zeigen.",
+    "WordPress mit Elementor, Service-Bereiche klar sortiert.",
+    "Nicht maler-weiß, sondern schwarz — der Auftritt trägt dieselbe Haltung wie das Firmenauto."
+  ],
+  "outcome": [
+    "Eigenständiger Dark-Mode-Auftritt, sichtbar anders als der typische Handwerker-Look.",
+    "Portfolio mit Vorher/Nachher-Vergleichen, die die Qualität direkt sichtbar machen.",
+    "Eine Website, die die mutige Marken-Haltung konsequent weiterträgt."
+  ],
+  "tech": [
+    "WordPress",
+    "Elementor",
+    "Dark-Mode-Design",
+    "Vorher/Nachher-Portfolio"
+  ],
+  "serviceSlug": "marke",
+  "anchor": "Handwerk · Dark Mode · Vorher/Nachher-Portfolio",
+  "image": "/cases/malerwerk-gaub.webp",
+  "anonymized": false,
+  "client": "Das Malerwerk · Alexander Gaub"
+}

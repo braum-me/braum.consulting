@@ -1,0 +1,13 @@
+{
+  "slug": "uebergabe",
+  "term": "Übergabe",
+  "synonyms": [
+    "Handover"
+  ],
+  "category": "methodik",
+  "definition": "Vierte Etappe im Lotsenprinzip. Dokumentation, Schulung, Betriebssicherheit. Ziel ist nicht, dass das Team Braum Consulting dauerhaft braucht — Ziel ist, dass das Setup ohne den Lotsen weiterläuft.",
+  "related": [
+    "lotsenprinzip",
+    "lagebild"
+  ]
+}

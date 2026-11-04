@@ -1,0 +1,13 @@
+{
+  "slug": "power-platform",
+  "term": "Power Platform",
+  "synonyms": [
+    "Power Apps",
+    "Power Automate",
+    "Power BI"
+  ],
+  "category": "technik",
+  "definition": "Microsofts Low-Code-Suite: Power Apps (Apps), Power Automate (Workflows), Power BI (Reporting), Power Pages (Web-Frontends). Citizen Development braucht Governance (CoE-Toolkit), sonst entsteht Schatten-IT.",
+  "longForm": "Die Power Platform ist Microsofts Antwort auf den Wunsch der Fachbereiche, ohne Entwickler eigene Apps und Automatisierungen zu bauen — „Citizen Development“. Das Versprechen ist echt: Wer nah am Prozess sitzt, baut die Lösung schneller als jede IT-Warteschlange. Die Kehrseite ist ebenso real: Ohne Leitplanken wächst eine unkontrollierte Landschaft aus hunderten Flows und Apps, die niemand überblickt — Schatten-IT mit Microsoft-Logo. Governance ist deshalb kein Bremsklotz, sondern die Voraussetzung dafür, dass der Nutzen skaliert: saubere Umgebungs-Trennung (Dev/Test/Prod), Connector-Regeln, ein klares Lizenzmodell und ein Center of Excellence, das Standards und Templates bereitstellt. Wo es komplex wird, gehört der Übergabepunkt zur Pro-Code-Entwicklung definiert. Richtig aufgesetzt ist die Power Platform ein starker ROI-Hebel — gerade für die vielen kleinen, regelbasierten Abläufe, die kein Sprachmodell brauchen.",
+  "related": ["m365-tenant", "schatten-it", "workflow-automatisierung"]
+}

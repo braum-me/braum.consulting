@@ -1,0 +1,9 @@
+{
+  "slug": "iam",
+  "term": "Identity & Access Management",
+  "synonyms": ["IAM", "Identitäts- und Zugriffsmanagement"],
+  "category": "technik",
+  "definition": "Der geregelte Umgang mit digitalen Identitäten: Wer ist wer, wer darf was, und was passiert beim Eintritt, Wechsel und Austritt? Fundament jeder modernen Sicherheitsarchitektur — ohne saubere Identitäten kein Zero Trust.",
+  "longForm": "In der Cloud ist die Identität die neue Grenze — nicht mehr die Firewall. Genau deshalb steht und fällt Sicherheit mit dem Identity & Access Management. IAM beantwortet drei Fragen sauber: Authentifizierung (bist du, wer du vorgibst?), Autorisierung (was darfst du?) und Lifecycle (wie entsteht, ändert und endet ein Zugang?). Der häufigste Schwachpunkt im Mittelstand ist der Lifecycle: Konten von längst Ausgeschiedenen leben weiter, Berechtigungen wachsen über Jahre an, niemand räumt auf. Gutes IAM setzt auf eine zentrale Identität (in der Microsoft-Welt Entra ID), rollenbasierte Rechte nach dem Least-Privilege-Prinzip, Single Sign-On für weniger Passwort-Reibung und automatisiertes Onboarding/Offboarding mit klaren Ownern. Das ist die Voraussetzung dafür, dass Zero Trust und Conditional Access überhaupt greifen können.",
+  "related": ["entra-id", "sso", "conditional-access", "zero-trust", "mfa"]
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "next-js",
+  "term": "Next.js",
+  "category": "technik",
+  "definition": "React-Framework von Vercel. App-Router (seit Version 13), Server-Components, ViewTransitions. Diese Website läuft auf Next.js 16 + Turbopack.",
+  "source": {
+    "label": "nextjs.org",
+    "url": "https://nextjs.org/"
+  }
+}

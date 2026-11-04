@@ -1,0 +1,13 @@
+{
+  "slug": "conditional-access",
+  "term": "Conditional Access",
+  "synonyms": ["Bedingter Zugriff"],
+  "category": "technik",
+  "definition": "Regelwerk in Entra ID, das definiert unter welchen Bedingungen ein User auf eine Ressource zugreifen darf — z.B. nur mit MFA, nur von Firmengeräten, nur aus bestimmten Ländern.",
+  "longForm": "Conditional Access ist das Herzstück von Zero Trust in der Microsoft-Welt. Statt jedem mit gültigem Passwort zu vertrauen, bewertet eine Policy bei jeder Anmeldung das Zusammenspiel der Signale: Wer ist es, von welchem Gerät, aus welchem Netz, wie riskant wirkt die Anmeldung? Daraus folgt die Entscheidung — zulassen, MFA verlangen, blockieren oder nur eingeschränkt freigeben. Typische Einstiegs-Policies: MFA für alle, veraltete Legacy-Authentifizierung blockieren, Admin-Rollen härten, Anmeldungen aus untypischen Ländern hinterfragen. Die Kunst liegt im Maß — zu lasch bringt nichts, zu streng sperrt die Leute aus oder treibt sie in Umwege. Deshalb startet man mit wenigen harten Regeln im Report-Modus, beobachtet, und schärft nach. Ohne saubere Identität in Entra ID greift Conditional Access ins Leere.",
+  "related": ["entra-id", "mfa", "zero-trust", "iam", "m365-tenant"],
+  "source": {
+    "label": "Microsoft Learn · Conditional Access",
+    "url": "https://learn.microsoft.com/de-de/entra/identity/conditional-access/"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "slug": "cyber-versicherung",
+  "term": "Cyber-Versicherung",
+  "synonyms": ["Cyber-Police", "Cyber-Risk-Versicherung"],
+  "category": "recht",
+  "definition": "Versicherung gegen finanzielle Folgen von Cyber-Vorfällen — von Betriebsunterbrechung über Wiederherstellung bis Haftung. Setzt zunehmend nachgewiesene Mindest-Sicherheitsmaßnahmen voraus.",
+  "longForm": "Eine Cyber-Versicherung deckt typischerweise die teuren Folgen eines Vorfalls ab: Forensik, Datenwiederherstellung, Betriebsunterbrechung, Rechts- und Benachrichtigungskosten, teils Lösegeld- und Haftungsszenarien. Der entscheidende Wandel der letzten Jahre: Versicherer zahlen nicht mehr blind. Vor Abschluss wird abgefragt und teils auditiert, ob grundlegende Schutzmaßnahmen existieren — flächendeckende MFA, getestete Backups, aktuelles Patch-Management, Endpoint-Schutz, ein Notfallplan. Fehlen sie, gibt es entweder keine Police, hohe Selbstbehalte oder im Schadenfall Streit um die Leistung. Damit wird die Versicherung zum unfreiwilligen Treiber für Security-Hygiene: Die Anforderungen im Fragebogen sind faktisch eine Mindest-Checkliste. Sinnvoll ist die umgekehrte Reihenfolge — erst das Sicherheitsniveau auf ein belegbares Mindestmaß heben, dann versichern. Die Police ersetzt keine Vorsorge, sie sichert den Rest-Risiko-Schaden ab.",
+  "related": ["ransomware", "bcm", "mfa", "backup-321", "nis2"]
+}

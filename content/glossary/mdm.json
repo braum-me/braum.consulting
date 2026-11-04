@@ -1,0 +1,14 @@
+{
+  "slug": "mdm",
+  "term": "MDM",
+  "synonyms": [
+    "Mobile Device Management",
+    "Geräteverwaltung"
+  ],
+  "category": "technik",
+  "definition": "Zentrale Verwaltung von Notebooks und Smartphones: Richtlinien ausrollen, Software verteilen, verlorene Geräte aus der Ferne sperren oder löschen. Im Microsoft-Umfeld läuft das über Intune.",
+  "related": [
+    "intune",
+    "m365-tenant"
+  ]
+}

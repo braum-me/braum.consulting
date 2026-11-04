@@ -1,0 +1,42 @@
+/**
+ * Reskin-Layer für das portierte AI-Stack-Fit-Tool.
+ *
+ * Die ursprünglichen styles.css (aus braum.org) nutzen ein Forest/Mint-Token-
+ * Set, das dort in global.css definiert war. Statt 2.000 CSS-Zeilen umzu-
+ * schreiben, mappen wir die Forest-Tokens hier scoped auf das orange Dark-
+ * Brand (#DC8044). Alles unter .asf-scope erbt damit die Marken-Farben.
+ *
+ * Tokens, die Orange ohnehin global hat (--font-*, --fg-muted, --ease-standard),
+ * werden bewusst NICHT neu definiert — sie erben aus dem Orange :root.
+ */
+
+.asf-scope {
+  /* Akzent: Mint-Grün → Copper-Orange */
+  --mint:            var(--brand);
+  /* RGB-Kanäle des Brand-Orange (#DC8044) für rgba()-Glows/Borders/Hover.
+     Die styles.css aus braum.org nutzte hartkodiert rgba(0, 200, 150, …) (Mint);
+     diese sind global auf rgba(var(--mint-rgb), …) umgestellt. Eine Stelle ändern,
+     wenn die Brand-Farbe je wechselt. */
+  --mint-rgb:        220, 128, 68;
+  --forest-glow:     var(--brand-glow);
+  --forest-deepest:  #0B0A09;
+
+  /* Text: Cream → Orange-Foreground */
+  --cream:  var(--fg-default);
+  --fg:     var(--fg-default);
+  --fg-dim: var(--fg-subtle);
+
+  /* Linien */
+  --border:        var(--border-default);
+  --border-strong: rgba(242, 240, 235, 0.20);
+
+  /* Radien → Orange-Skala */
+  --radius-sm: var(--r-sm);
+  --radius-md: var(--r-md);
+  --radius-lg: var(--r-lg);
+
+  /* Motion-Dauern */
+  --dur-fast: 120ms;
+  --dur-base: 220ms;
+  --dur-slow: 360ms;
+}

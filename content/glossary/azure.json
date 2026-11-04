@@ -1,0 +1,13 @@
+{
+  "slug": "azure",
+  "term": "Microsoft Azure",
+  "synonyms": [
+    "Azure"
+  ],
+  "category": "technik",
+  "definition": "Microsofts Cloud-Plattform für Server, Datenbanken, Netzwerke und KI-Dienste. Im Mittelstand selten als Ganzes, oft gezielt — für eine Anwendung, ein Backup-Ziel oder als Heimat für Workloads, die nicht mehr im Serverraum stehen sollen.",
+  "related": [
+    "m365-tenant",
+    "entra-id"
+  ]
+}

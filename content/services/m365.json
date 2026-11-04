@@ -1,0 +1,77 @@
+{
+  "slug": "m365",
+  "num": "02",
+  "title": "Moderne IT & Cloud",
+  "short": "Moderner Workspace. Sicher. Plattform für AI.",
+  "bullets": [
+    "Microsoft 365 oder Google Workspace",
+    "Mobiles Arbeiten — von überall, sicher",
+    "Grundlage für KI und Automatisierung"
+  ],
+  "result": "0 Server",
+  "resultLabel": "keiner mehr im Keller — alles in der Cloud",
+  "lead": "Moderne Cloud-Arbeitsumgebung — Microsoft 365 oder Google Workspace, sauber aufgesetzt, sicher, mobil von überall. Schluss mit On-Prem-Altlasten und unsicheren Mail-Servern. Grundlage für alles, was danach kommt: KI, Automatisierung, modernes Arbeiten.",
+  "problem": [
+    "On-Prem-Wildwuchs aus zehn Jahren: Exchange-Server irgendwo im Keller, drei Fileshares, VPN für Home-Office, zwei verschiedene Mail-Domains, Schatten-IT in jeder Abteilung. Keiner steuert das mehr.",
+    "Mobiles Arbeiten ist gewünscht, aber nicht sicher umgesetzt — BYOD-Chaos, Geräte ohne Verschlüsselung, MFA nur halbherzig. Die nächste Compliance-Prüfung wird unangenehm.",
+    "AI, Copilot, Automatisierung sind Thema im Management — aber die IT-Basis trägt das nicht. Bevor du Copilot ausrollst, brauchst du Identity, Datenklassifizierung und ein sauberes Berechtigungsmodell."
+  ],
+  "outcomes": [
+    "Eine moderne Cloud-Arbeitsumgebung (M365 oder Google Workspace), die deine Leute von überall sicher nutzen können — Browser, Laptop, Phone, Tablet.",
+    "Identity & Access aus einer Quelle: ein Login, MFA, Conditional Access, klar dokumentiertes Berechtigungsmodell.",
+    "Gerätemanagement über Intune (oder Google MDM): einheitliche Compliance-Policies über alle Standorte, automatisches Onboarding neuer Mitarbeitender.",
+    "Saubere Plattform-Foundation, auf der KI-Use-Cases (Copilot, Custom-GPTs, Automatisierung) überhaupt erst sinnvoll funktionieren.",
+    "Loswerden von On-Prem-Infrastruktur, die keiner steuern kann. Weniger Server, weniger Risiko, weniger Wartungs-Stress."
+  ],
+  "scope": [
+    "Workspace-Audit + Architektur-Blueprint je nach Unternehmensgröße & Branche",
+    "Microsoft 365 oder Google Workspace — Tenant-Setup oder -Konsolidierung",
+    "Entra ID / Google Identity, MFA & Passkeys (passwortlos), Conditional Access, SSO zu Drittsystemen",
+    "Exchange Online · Teams · Teams Rooms · SharePoint als DMS · OneDrive",
+    "Intune oder Google MDM — Gerätemanagement über alle Standorte",
+    "Security-Layer: Defender, DLP, Datenklassifizierung, Backup-Strategie",
+    "Migration aus On-Prem (Exchange, Fileshares, Active Directory)",
+    "Adoption & Schulung — Champions, Selbstlern-Material, Sprechstunde",
+    "Übergabe an interne IT mit Doku und Runbooks"
+  ],
+  "tags": [
+    "Microsoft 365",
+    "Google Workspace",
+    "Entra ID",
+    "Intune",
+    "SharePoint DMS",
+    "Teams Rooms",
+    "Security"
+  ],
+  "caseRefs": [],
+  "pricing": "Auf Anfrage · Festpreis nach Lagebild",
+  "duration": "8 – 22 Wochen",
+  "metaDesc": "Cloud-Migration für den Mittelstand: Microsoft 365 oder Google Workspace, sicher aufgesetzt, mobil von überall. Identity, Intune, Security — raus aus dem Keller.",
+  "faqs": [
+    {
+      "q": "Microsoft 365 oder Google Workspace — was ist besser?",
+      "a": "Kommt auf dein Haus an. M365 ist Standard im deutschen Mittelstand und in der Industrie, integriert tief mit SharePoint, Teams und Office. Google Workspace ist schlanker, browser-first, oft passender für junge oder tech-affine Teams. Was zu deiner Belegschaft, deinen Tools und deiner Roadmap passt, entscheiden wir im Lagebild."
+    },
+    {
+      "q": "Wir haben noch On-Prem-Exchange — geht eine saubere Migration ohne Downtime?",
+      "a": "Ja. Hybrid-Setup, Postfächer schrittweise migriert, Cutover am Wochenende mit Rollback-Plan. In acht Migrationen bisher null produktive Standstills."
+    },
+    {
+      "q": "Was kostet Microsoft 365 / Google Workspace?",
+      "a": "Lizenzen kaufst du direkt bei Microsoft, Google oder einem Reseller. Ich bin kein Lizenz-Reseller und will keine Trailprovision. Welche Stufe (M365 Business Premium · E3 · E5 / Workspace Business · Enterprise) zu dir passt, rechnen wir im Lagebild aus."
+    },
+    {
+      "q": "Wie sicher ist das wirklich? Daten bei US-Cloud-Anbietern …",
+      "a": "Realistisch sicherer als die meisten On-Prem-Setups, die ich gesehen habe. DSGVO ist mit M365 EU Data Boundary oder Google Workspace Regionen sauber lösbar. Bei sensiblen Branchen kommen Datenklassifizierung, DLP und Zusatz-Tools dazu — Boxcryptor, oder europäische Alternativen wie Nextcloud."
+    },
+    {
+      "q": "Wir wollen Copilot — können wir das einfach einschalten?",
+      "a": "Technisch ja, sinnvoll nein. Copilot zeigt jedem User alles, worauf er Zugriff hat. Sind deine SharePoint-Berechtigungen verbastelt, findet dein Vertrieb plötzlich die Gehaltsliste. Erst Identity, Berechtigungen und Datenklassifizierung sauber — dann Copilot."
+    },
+    {
+      "q": "Was passiert mit Schatten-IT?",
+      "a": "Im Lagebild inventarisiert, dann mit den Fachbereichen entweder offiziell integriert oder durch eine bessere Lösung ersetzt. Keine Geheim-Listen, keine Bestrafung. Schatten-IT entsteht, wo IT nicht liefert — das löst man nicht mit Verboten."
+    }
+  ],
+  "iconName": "Server"
+}

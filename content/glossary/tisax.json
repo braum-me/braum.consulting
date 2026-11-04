@@ -1,0 +1,13 @@
+{
+  "slug": "tisax",
+  "term": "TISAX",
+  "synonyms": ["TISAX Level 3"],
+  "category": "recht",
+  "definition": "Trusted Information Security Assessment Exchange — Automotive-spezifischer Security-Standard. Level 3 (höchstes Schutzniveau) ist Pflicht für viele OEM-Zulieferer mit Zugriff auf Prototypen-Daten.",
+  "longForm": "TISAX ist die Antwort der Automobilindustrie auf eine simple Frage: Wie prüft man die Informationssicherheit hunderter Zulieferer, ohne dass jeder OEM einzeln auditiert? Statt jedem Kunden ein eigenes Assessment zu liefern, lässt sich ein Zulieferer einmal nach dem VDA-ISA-Katalog prüfen und teilt das Ergebnis über die ENX-Plattform mit den Partnern, die es brauchen. Der Prüfkatalog lehnt sich eng an ISO 27001 an, ergänzt aber Automotive-Spezifika — vor allem Prototypenschutz und Datenschutz. Es gibt abgestufte Assessment-Level (höher = mehr Vor-Ort-Tiefe), das Schutzniveau wird über Bewertungsziele wie „hoch“ oder „sehr hoch“ gesteuert. Wer schon ein ISO-27001-ISMS hat, startet nicht bei null — vieles trägt direkt in die TISAX-Vorbereitung.",
+  "related": ["iso-27001", "isms", "nis2"],
+  "source": {
+    "label": "ENX · TISAX",
+    "url": "https://enx.com/de-de/tisax/"
+  }
+}

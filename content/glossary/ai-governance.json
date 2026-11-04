@@ -1,0 +1,9 @@
+{
+  "slug": "ai-governance",
+  "term": "AI-Governance",
+  "category": "methodik",
+  "definition": "Regelwerk und Kontroll-Mechanismen für den Einsatz generativer KI im Unternehmen. Klärt: Welche Daten dürfen rein, welche Antworten dürfen raus, wer haftet bei Fehlentscheidungen, wie wird Auditierbarkeit sichergestellt.",
+  "related": [
+    "copilot"
+  ]
+}

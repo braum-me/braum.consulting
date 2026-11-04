@@ -1,0 +1,63 @@
+{
+  "slug": "strategie",
+  "num": "04",
+  "title": "Digitale Transformation, Change & Security",
+  "short": "Roadmaps, die Entscheidungen leichter machen.",
+  "bodyIntro": "Keine große Transformationsfolie. Erst Lagebild, dann Prioritäten, dann Umsetzung. Immer nah am höchsten Gut, dem Menschen.",
+  "bullets": [
+    "IT-Roadmap & Vendor-Selection",
+    "Informationssicherheit (NIS-2, ISO 27001, TISAX)",
+    "Change-Management & M&A-Due-Diligence"
+  ],
+  "result": "14 Tage",
+  "resultLabel": "bis zur schriftlichen Empfehlung",
+  "lead": "Wenn dein Setup steht, aber die nächste Entscheidung schwer wird. IT-Roadmap auf Geschäftsführungs-Ebene, Vendor-Selection, M&A-IT-Due-Diligence, Informationssicherheit (NIS-2, ISO 27001, TISAX), Change-Management ohne Workshop-Theater. Diskret, mit NDA vor dem zweiten Termin.",
+  "problem": [
+    "Du übernimmst ein Unternehmen oder denkst über einen Carve-out nach. IT ist eine Black-Box, kein Mensch sagt dir, was du wirklich kaufst.",
+    "Drei Berater empfehlen drei verschiedene ERPs. Niemand sagt dir, was unter Last in deinem Haus wirklich funktioniert. Und wer die Belegschaft durch den Wechsel begleitet, weiß auch niemand."
+  ],
+  "outcomes": [
+    "Eine Einschätzung in Du-Form, schriftlich in 14 Tagen, die kein Beratungspartner so liefern würde.",
+    "Eine IT-Roadmap auf Geschäftsführungs-Ebene mit klarer Investitions- und Make-or-Buy-Empfehlung.",
+    "Ein Risk-Score für deine M&A-IT-Due-Diligence, der dir hilft den Kaufpreis zu verhandeln.",
+    "Ein Change-Management-Plan, der deine Belegschaft mitnimmt, ohne Workshop-Theater."
+  ],
+  "scope": [
+    "IT-Roadmap auf Geschäftsführungs-Ebene",
+    "Vendor- und Tool-Selection (ERP, CRM, DMS, CMS)",
+    "IT-Due-Diligence bei M&A-Vorhaben",
+    "Change-Management bei Tool- und Prozess-Umstellungen",
+    "Sparring bei laufenden Berater-Engagements (Second-Opinion)",
+    "Investitions- und Make-or-Buy-Empfehlungen",
+    "NDA vor dem zweiten Termin, immer."
+  ],
+  "tags": [
+    "IT-Roadmap",
+    "Vendor-Selection",
+    "M&A-Due-Diligence",
+    "Change-Management"
+  ],
+  "caseRefs": [],
+  "pricing": "Auf Anfrage · Festpreis nach Lagebild",
+  "duration": "2 – 6 Wochen",
+  "metaDesc": "Digitale Transformation für den Mittelstand: IT-Roadmap, IT-Due-Diligence, NIS-2, ISO 27001, Change. Diskret, mit NDA, Empfehlung in 14 Tagen.",
+  "faqs": [
+    {
+      "q": "Bist du nicht zu wenig für eine Entscheidung dieser Größe?",
+      "a": "Berater-Pyramiden mit drei Ebenen und sechs Köpfen kommen aus genau dem Glauben. Praktisch entscheiden in deinem Haus zwei, drei Menschen — und genau mit denen will ich sprechen, nicht mit ihren Sub-Sub-Ansprechpartnern."
+    },
+    {
+      "q": "Wir haben schon ein Beratungshaus, könntet ihr Second-Opinion machen?",
+      "a": "Ja, ist ein häufiger Auftrag. Schriftliche Einschätzung in 14 Tagen mit klarer Empfehlung — entweder das bestehende Engagement bestätigend oder mit Alternativvorschlag."
+    },
+    {
+      "q": "Wie diskret ist „diskret\"?",
+      "a": "NDA vor dem zweiten Termin. Engagement landet auf Website und LinkedIn nur, wenn du das schriftlich freigibst. Mandanten-Liste gibt es nicht öffentlich, Referenzen nur auf direkte Anfrage und nach Rückfrage beim Mandanten."
+    },
+    {
+      "q": "Was kostet eine IT-Due-Diligence wirklich?",
+      "a": "Festpreis ab 5.000 €, je nach Tiefe — von der Vorprüfung über die vollständige Due Diligence bis zur Anschluss-Roadmap. Verglichen mit klassischen Berater-Tagessätzen meist ein Bruchteil, bei gleicher operativer Qualität."
+    }
+  ],
+  "iconName": "Compass"
+}
