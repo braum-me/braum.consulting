@@ -1,0 +1,85 @@
+{
+  "num": "licht-und-liebe-photography",
+  "title": "Mehr als eine Website: Ein digitaler Auftritt aus einem Guss.",
+  "sector": "Hochzeits- & Portraitfotografie · Frankfurt bis Fulda",
+  "year": "2026",
+  "field": "marke",
+  "fieldLabel": "Marke & Reichweite",
+  "seoTitle": "Digitaler Auftritt für eine Fotografin",
+  "metric": "100",
+  "metricLabel": "Lighthouse Performance · Mobile",
+  "featured": true,
+  "impact": "Portfolio-Website, eigene Domain, geschäftliche E-Mail und ein sicherer Anfrageprozess — als eine zusammenhängende, wartungsarme Lösung.",
+  "brief": "Für Licht & Liebe Photography entstand ein vollständiger digitaler Geschäftsauftritt — mit individueller Portfolio-Website, eigener Domain, professioneller E-Mail-Infrastruktur und einem sicheren Anfrageprozess.",
+  "context": [
+    "Eva König-Röll hatte bereits eine klare fotografische Handschrift, ein eigenes Branding und hochwertige Bilder.",
+    "Was fehlte, war ein professioneller digitaler Auftritt, der ihre Arbeit präsentiert und Interessenten einen unkomplizierten Weg zur Kontaktaufnahme bietet.",
+    "Die Herausforderung bestand nicht allein darin, eine schöne Website zu gestalten. Domain, E-Mail, Hosting und Kundenanfragen sollten als zusammenhängende, langfristig wartungsarme Lösung funktionieren."
+  ],
+  "approach": [
+    "Individuelle Portfolio-Website: eine responsive Editorial-Website auf Basis von Astro. Das vorhandene Branding wurde in ein ruhiges Design übersetzt, das die Fotografien in den Mittelpunkt stellt.",
+    "Domain und Cloud-Infrastruktur: Domain und DNS-Management über Cloudflare, Hosting über Cloudflare Pages, HTTPS und grundlegende Sicherheitskonfiguration.",
+    "Google Workspace: professionelle Geschäftskommunikation mit Google Workspace Business Plus — eigene Domain, Postfach, E-Mail-Alias und E-Mail-Authentifizierung über SPF, DKIM und DMARC.",
+    "Digitaler Anfrageprozess: ein individuelles Kontaktformular mit Cloudflare Turnstile und Resend. Anfragen landen direkt im geschäftlichen Google-Workspace-Postfach.",
+    "Datenschutzfreundliche Webanalyse: eine selbst betriebene Umami-Instanz mit Einwilligungssteuerung, separater Website-Erfassung und geregelter Datenaufbewahrung.",
+    "Performance, SEO und Accessibility: Bilder, Metadaten, strukturierte Daten und mobile Nutzung optimiert. Google Search Console und XML-Sitemap eingerichtet."
+  ],
+  "pullQuote": "Ein überzeugender digitaler Auftritt besteht nicht nur aus Design — sondern aus allem, was dahinter zuverlässig funktioniert.",
+  "outcomeIntro": {
+    "title": "Ein Auftritt. Alle digitalen Grundlagen.",
+    "body": [
+      "Die Kundin verfügt über einen eigenständigen digitalen Geschäftsauftritt, bei dem Gestaltung und Infrastruktur zusammenarbeiten.",
+      "Die Website präsentiert ihre fotografische Arbeit, während Domain, geschäftliche E-Mail-Kommunikation und Kontaktformular eine professionelle Kundenkommunikation ermöglichen.",
+      "Dank der statischen Architektur entsteht kein laufender WordPress-Plugin-Wartungsaufwand."
+    ],
+    "results": [
+      {
+        "value": "100",
+        "label": "Performance · Mobile"
+      },
+      {
+        "value": "100",
+        "label": "Performance · Desktop"
+      },
+      {
+        "value": "100",
+        "label": "Accessibility"
+      },
+      {
+        "value": "100",
+        "label": "SEO"
+      }
+    ],
+    "note": "Lighthouse-Projektwerte · Mobile Performance: 100, bestätigt am 04.11.2026"
+  },
+  "outcome": [
+    "Ein Auftritt aus einem Guss: Gestaltung, Domain, E-Mail und Anfragen arbeiten zusammen.",
+    "Eine Editorial-Portfolio-Website, die Evas Fotografien in den Mittelpunkt stellt — auf jedem Gerät.",
+    "Geschäftliche E-Mail unter eigener Domain, mit SPF, DKIM und DMARC abgesichert.",
+    "Ein Kontaktformular mit Bot-Schutz, dessen Anfragen direkt im Geschäftspostfach ankommen.",
+    "Webanalyse nur mit Einwilligung, selbst betrieben und mit geregelter Aufbewahrung.",
+    "Eine statische Architektur ohne laufende Plugin-Wartung."
+  ],
+  "tech": [
+    "Astro",
+    "TypeScript",
+    "Cloudflare Pages",
+    "Cloudflare DNS",
+    "Google Workspace",
+    "Resend",
+    "Cloudflare Turnstile",
+    "Self-hosted Umami",
+    "SEO & Accessibility"
+  ],
+  "serviceSlug": "marke",
+  "updatedAt": "2026-11-04",
+  "anchor": "Fotografie · Website, Domain, E-Mail & Anfragen aus einem Guss",
+  "image": "/cases/licht-und-liebe-photography-mockup.webp",
+  "imageSize": {
+    "width": 1448,
+    "height": 1086
+  },
+  "anonymized": false,
+  "client": "Licht & Liebe Photography · Eva König-Röll",
+  "clientUrl": "https://lichtundliebe.photography/"
+}

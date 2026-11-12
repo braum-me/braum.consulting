@@ -1,0 +1,10 @@
+{
+  "slug": "core-web-vitals",
+  "term": "Core Web Vitals",
+  "category": "technik",
+  "definition": "Googles Messwerte für die wahrgenommene Qualität einer Website: Wie schnell baut sie sich auf, wie schnell reagiert sie, wie ruhig bleibt das Layout. Fließen ins Ranking ein und sind ein guter Proxy dafür, ob sich die Seite gut anfühlt.",
+  "related": [
+    "next-js",
+    "wordpress"
+  ]
+}

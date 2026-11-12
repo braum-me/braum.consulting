@@ -1,0 +1,14 @@
+{
+  "slug": "n8n",
+  "term": "n8n",
+  "synonyms": [
+    "Workflow-Automation",
+    "Workflow-Automatisierung"
+  ],
+  "category": "technik",
+  "definition": "Open-Source-Werkzeug zum Verketten von Systemen ohne tiefe Programmierung. Ein Trigger löst eine Kette von Schritten aus — Daten holen, umformen, weiterreichen. Selbst gehostet, also bleiben die Daten im eigenen Haus.",
+  "related": [
+    "power-platform",
+    "rag"
+  ]
+}

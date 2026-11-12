@@ -1,0 +1,13 @@
+{
+  "slug": "sso",
+  "term": "SSO",
+  "synonyms": [
+    "Single Sign-On",
+    "SAML SSO"
+  ],
+  "category": "technik",
+  "definition": "Single Sign-On — User loggt sich einmal ein und greift damit auf alle gekoppelten Anwendungen zu. Im Mittelstand meist über Entra ID + SAML/OIDC realisiert.",
+  "related": [
+    "entra-id"
+  ]
+}

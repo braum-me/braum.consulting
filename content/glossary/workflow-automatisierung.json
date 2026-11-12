@@ -1,0 +1,10 @@
+{
+  "slug": "workflow-automatisierung",
+  "term": "Workflow-Automatisierung",
+  "synonyms": ["Prozessautomatisierung", "Workflow Automation"],
+  "category": "technik",
+  "definition": "Das Automatisieren wiederkehrender Abläufe — Freigaben, Datenübertragungen, Benachrichtigungen — mit Werkzeugen wie Power Automate, n8n oder Make. Oft der direkteste ROI, ganz ohne KI.",
+  "longForm": "Nicht jeder Effizienzgewinn braucht ein Sprachmodell. Ein großer Teil der täglichen Reibung im Mittelstand sind stupide, regelbasierte Abläufe: Daten von einem System ins nächste tippen, auf Freigaben warten, manuell Bescheid geben, immer dieselbe Mail formulieren. Genau hier setzt Workflow-Automatisierung an — mit Low-Code-Plattformen wie Power Automate (tief im Microsoft-Stack), n8n (open-source, self-hostbar) oder Make. Der Reiz ist der direkte, messbare ROI: Eine automatisierte Rechnungsfreigabe oder ein synchronisierter Datenfluss spart ab Tag eins Stunden. Die Falle ist Schatten-IT — wenn jede Abteilung unkontrolliert eigene Flows baut, entsteht ein unwartbarer Wildwuchs. Deshalb gehört Automatisierung in einen Rahmen: saubere Umgebungs-Trennung, Connector-Governance und klare Übergaben dorthin, wo es komplex wird. Erst dann skaliert der Nutzen, ohne neues Risiko zu erzeugen.",
+  "related": ["power-platform", "n8n", "schatten-it", "ki-agenten"],
+  "tool": { "href": "/werkzeuge/automatisierung-roi", "label": "Was spart Automatisierung wirklich?" }
+}

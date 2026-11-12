@@ -1,0 +1,16 @@
+{
+  "slug": "entra-id",
+  "term": "Entra ID",
+  "synonyms": [
+    "Azure AD",
+    "Azure Active Directory"
+  ],
+  "category": "technik",
+  "definition": "Microsofts Cloud-Identitätssystem (früher Azure Active Directory). Verwaltet User, Gruppen, Berechtigungen, MFA und Conditional Access für M365 und Drittapps.",
+  "longForm": "Entra ID ist die Identitäts-Zentrale der Microsoft-Cloud und damit der wichtigste einzelne Sicherheitsbaustein moderner IT — denn in der Cloud ist die Identität die neue Perimetergrenze, nicht die Firewall. Hier hängen User, Gruppen, Geräte, MFA, Conditional Access, Single Sign-On und der Lebenszyklus von Zugängen zusammen. Wer mehrere lokale Active Directories betreibt, konsolidiert sie typischerweise hierher — eine zentrale Identität über alle Standorte und Systeme. Der Hebel: Einmal sauber aufgesetzt, tragen darauf Zero Trust, Copilot-Sicherheit und automatisiertes On- und Offboarding. Der häufigste Schwachpunkt im Mittelstand ist gewachsener Wildwuchs — verwaiste Konten, zu weite Rechte, kein klarer Owner pro Identität. Entra ID ist eben nicht nur ein Verzeichnis, sondern der Ort, an dem Identity & Access Management überhaupt erst steuerbar wird.",
+  "related": ["m365-tenant", "conditional-access", "sso", "iam", "zero-trust", "mfa"],
+  "source": {
+    "label": "Microsoft Learn · Entra",
+    "url": "https://learn.microsoft.com/de-de/entra/fundamentals/"
+  }
+}

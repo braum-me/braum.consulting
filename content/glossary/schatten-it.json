@@ -1,0 +1,9 @@
+{
+  "slug": "schatten-it",
+  "term": "Schatten-IT",
+  "synonyms": ["Shadow IT"],
+  "category": "technik",
+  "definition": "Tools und Dienste, die Mitarbeitende an der IT vorbei nutzen — der private Cloud-Speicher, die schnell gebaute Excel-Lösung, das nicht freigegebene KI-Tool. Entsteht aus echtem Bedarf, wird aber zum Risiko, weil niemand sie absichert oder kennt.",
+  "longForm": "Schatten-IT ist fast nie böse Absicht — sie entsteht, weil ein Fachbereich schneller liefern will, als die offizielle IT bereitstellen kann. Die Vertrieblerin baut ihre eigene Excel-Datenbank, ein Team zieht auf einen privaten Cloud-Speicher um, jemand kippt Kundendaten in ein kostenloses KI-Tool. Jede einzelne Lösung löst ein reales Problem — in Summe entsteht aber eine Landschaft, die niemand kennt, sichert oder dokumentiert: Datenabfluss, fehlende Backups, DSGVO-Lücken, kein Offboarding. Der falsche Reflex ist, alles zu verbieten — dann geht die Schatten-IT nur tiefer in den Untergrund. Der bessere Weg: erfassen, was wirklich genutzt wird und warum, dann die guten Lösungen in einen geordneten Rahmen heben (etwa eine governte Power Platform) und nur das wirklich Riskante abstellen.",
+  "related": ["power-platform", "ai-governance", "workflow-automatisierung", "iam"]
+}
